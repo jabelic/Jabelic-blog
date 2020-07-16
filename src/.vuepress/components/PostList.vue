@@ -6,7 +6,7 @@
             <article class="outer">
             <a class="inner" :href="path" target="_blank">
             <div class="photo-outer">
-                    <img src="../../assets/profile.jpg">
+                    <img src="../../assets/profile.png">
              </div>
             <div class="text-outer">
             <div class="title">{{ post.title }}</div>
