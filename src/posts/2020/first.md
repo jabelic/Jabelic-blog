@@ -2,11 +2,11 @@
 titel: 初めての記事
 date: 2019-07-15
 description: 自己紹介とか. 
+sidebar: auto
 meta:
   - name: first article
     content: 自己紹介とか.
 settings:
-  sidebar: auto
   img: ../../assets/forZoomImg.png
   category: 雑記
   tags:
