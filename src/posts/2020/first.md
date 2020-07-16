@@ -16,7 +16,6 @@ settings:
     - 技術ブログ
 ---
 
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/jabelic/jabelic-blog)
 
 # First commit
 
