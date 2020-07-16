@@ -2,16 +2,13 @@
 titel: about me
 date: 2019-07-16
 description: 自己紹介とか. 
-meta:
-  name: about me
-  content: About me
+category: 自己紹介
 img: /assets/forZoomImg.png
-category: 雑記
 tags:
+  - Vuejs
+  - VuePress
   - 自己紹介
   - 技術ブログ
-  - Twitter
-  - Github
 ---
 
 

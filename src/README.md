@@ -1,8 +1,7 @@
 ---
 title: Jabelic-blog
-meta:
-  - name: description
-    content: 説明
+name: description
+content: 説明
 ---
 
 <div align="center">
@@ -10,4 +9,4 @@ meta:
 <h4>色々</h4>
 </div>
 
-<PostList />
+<PostList/>

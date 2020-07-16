@@ -3,16 +3,17 @@ titel: 初めての記事
 date: 2019-07-15
 description: 自己紹介とか. 
 meta:
-  name: first article
-  content: 自己紹介とか.
-sidebar: auto
-img: ../../assets/forZoomImg.png
-category: 雑記
-tags:
-  - Vuejs
-  - VuePress
-  - 自己紹介
-  - 技術ブログ
+  - name: first article
+    content: 自己紹介とか.
+settings:
+  sidebar: auto
+  img: ../../assets/forZoomImg.png
+  category: 雑記
+  tags:
+    - Vuejs
+    - VuePress
+    - 自己紹介
+    - 技術ブログ
 ---
 
 
@@ -30,7 +31,6 @@ markdownで書いてレンダリングしてほしかったのでVuepressを使�
 
 
 ## Home画面
-
 記事を表示するカードは[Vuepress でブログカードが作りたい | 民主主義に乾杯](https://python.ms/web-card/)を参考にしました. 
 
 
