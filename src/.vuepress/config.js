@@ -5,7 +5,8 @@ module.exports = {
         { text: 'Home', link: '/' },
         { text: 'About', link: '/info/info.html' },
         { text: 'Github', link: 'https://github.com/jabelic' }
-      ]
+      ],
+      domain: 'https://jabelic.netlify.app'
     },
     plugins: [
         [
@@ -19,6 +20,17 @@ module.exports = {
             {
             hostname: 'https://jabelic.netlify.app'
             },
+        ],
+        [
+            'seo',
+            {
+                title: ($page, $site) => $page.title || $site.title,
+                description: $page => $page.frontmatter.description,
+                author: (_, $site) => $site.themeConfig.author,
+                tags: $page => $page.frontmatter.tags,
+                url: (_, $site, path) => ($site.themeConfig.domain || '') + path,
+                publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
+            }
         ]
     ]
   }

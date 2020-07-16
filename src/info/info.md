@@ -4,6 +4,7 @@ date: 2019-07-16
 description: 自己紹介とか. 
 category: 自己紹介
 sidebar: auto
+author: Jabelic
 img: /assets/forZoomImg.png
 tags:
   - Vuejs

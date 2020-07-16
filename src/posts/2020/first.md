@@ -3,6 +3,7 @@ titel: 初めての記事
 date: 2019-07-15
 description: 自己紹介とか. 
 sidebar: auto
+author: Jabelic
 meta:
   - name: first article
     content: 自己紹介とか.
