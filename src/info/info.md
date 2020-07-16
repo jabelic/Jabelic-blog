@@ -16,6 +16,14 @@ tags:
 
 # About me
 
-所属: 明治大学総合数理学部現象数理学科
-Twitter: @Jabelic_
+### Profile
+- 所属: 明治大学総合数理学部現象数理学科
+
+- Twitter: [@Jabelic_](https://twitter.com/jabelic_)
+
+- Github: [Jabelic](https://github.com/jabelic)
+
+- Qiita: [Jabelic](https://qiita.com/jabelic)
+
+
 

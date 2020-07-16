@@ -13,7 +13,7 @@ date: 2019-07-15
 
 <div align="center">
 <h1>Jabelic</h1>
-<h4>色々</h4>
+<h4>技術とか数学とか色々.</h4>
 </div>
 
 <PostList/>
