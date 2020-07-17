@@ -1,7 +1,7 @@
 ---
-titel: 初めての記事
+titel: first commit
 date: 2019-07-15
-description: 自己紹介とか. 
+description: このブログについて.
 sidebar: auto
 author: Jabelic
 meta:
@@ -18,7 +18,7 @@ settings:
 ---
 
 
-# First commit
+# first commit
 Jabelicです. 2020年現在, 明治大学総合数理学部現象数理学科3年です. 
 
 
