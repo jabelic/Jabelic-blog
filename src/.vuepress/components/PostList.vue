@@ -6,8 +6,8 @@
             <article class="outer">
             <a class="inner" :href="post.path" target="">
             <div class="photo-outer">
-                    <img v-if="post.frontmatter.num == 1" src="../../assets/profile.png">
-                    <img v-if="post.frontmatter.num == 2" src="../../assets/profile.png">
+                    <img v-if="post.frontmatter.num == 1" src="../assets/profile.png">
+                    <img v-if="post.frontmatter.num == 2" src="../assets/2.png">
                     <!--img v-if="post.frontmatter.img" :src="$withBase(post.frontmatter.img)" alt=""-->
              </div>
             <div class="text-outer">

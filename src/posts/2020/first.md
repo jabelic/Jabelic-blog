@@ -4,7 +4,7 @@ date: 2019-07-15
 description: このブログについて.
 sidebar: auto
 author: Jabelic
-img: ../assets/profile.png
+img: /profile.png
 num: 1
 meta:
   - name: first article

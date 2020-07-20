@@ -1,6 +1,5 @@
 /* eslint-disable no-console */
 module.exports = {
-    base: '/',
     themeConfig: {
       nav: [
         { text: 'Home', link: '/' },
