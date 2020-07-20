@@ -4,11 +4,12 @@ date: 2019-07-15
 description: このブログについて.
 sidebar: auto
 author: Jabelic
+img: ../assets/profile.png
+num: 1
 meta:
   - name: first article
     content: 自己紹介とか.
 settings:
-  img: ../../assets/forZoomImg.png
   category: 雑記
   tags:
     - Vuejs
@@ -69,3 +70,8 @@ coming soon...
 - KaTeXを使えるようにする. プラグインがあったはず.
 - テーマカラーを変えたいかな. Vuetifyの導入にはあまり前向きでない.
 
+
+---
+
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-size='large'>Tweet</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
