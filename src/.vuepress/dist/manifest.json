@@ -3,7 +3,7 @@
   "short_name": "Jab",
   "icons": [
     {
-      "src": "../assets/favicon.png",
+      "src": "favicon.png",
       "sizes": "512x512",
       "type": "image/png"
     }
