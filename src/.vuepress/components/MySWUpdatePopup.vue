@@ -15,8 +15,8 @@ import SWUpdatePopup from '@vuepress/plugin-pwa/lib/SWUpdatePopup.vue'
 export default {
   components: { SWUpdatePopup },
   data: () => ({
-      message: '',
-      buttonText: ''
+      message: 'Add the icon on your HomeScreen!',
+      buttonText: 'Add'
   })
 }
 </script>
