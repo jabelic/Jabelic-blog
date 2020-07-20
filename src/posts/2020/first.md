@@ -66,11 +66,12 @@ coming soon...
 
 
 ## :information_desk_person:TODO
+- PWA化
+  - した！ついでにUpdatePopupも追加した。
 - Google Search Console がうんたらかんたら. ようわからん.
 - KaTeXを使えるようにする. プラグインがあったはず.
 - テーマカラーを変えたいかな. Vuetifyの導入にはあまり前向きでない.
 - Footerをつける
-
 
 ---
 

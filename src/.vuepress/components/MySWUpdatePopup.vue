@@ -36,4 +36,24 @@ export default {
 .my-sw-update-popup button {
   border: 1px solid #fefefe;
 }
+
+.my-sw-update-popup button {
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  background-color: #09ffa1;
+  font-size: 16px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 4px;
+  border-bottom: 4px solid #d37800;
+}
+
+.my-sw-update-popup button:active {
+    transform: translateY(4px);
+    border-bottom: none;
+}
+
 </style>
