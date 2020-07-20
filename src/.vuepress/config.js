@@ -1,5 +1,6 @@
 /* eslint-disable no-console */
 module.exports = {
+  serviceWorker: true,
     themeConfig: {
       nav: [
         { text: 'Home', link: '/' },
@@ -8,6 +9,9 @@ module.exports = {
       ],
       domain: 'https://jabelic.netlify.app'
     },
+    head:[
+      ['link', { rel: 'manifest', href: '/manifest.json' }],
+    ],
     plugins: [
         [
           '@vuepress/google-analytics',

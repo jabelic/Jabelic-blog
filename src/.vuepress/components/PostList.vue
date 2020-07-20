@@ -13,7 +13,6 @@
             <div class="text-outer">
             <div class="title">{{ post.title }}</div>
             <div class="description">{{ post.frontmatter.description }}</div>
-            
             </div>
             </a>
             </article>
