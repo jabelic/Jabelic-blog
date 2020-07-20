@@ -32,10 +32,10 @@ export default {
   padding: 10px;
   border: 5px solid #3eaf7c;
 }
-
+/*
 .my-sw-update-popup button {
   border: 1px solid #fefefe;
-}
+}*/
 
 .my-sw-update-popup button {
   display: inline-block;
