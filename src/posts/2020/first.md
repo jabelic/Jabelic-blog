@@ -68,10 +68,15 @@ coming soon...
 ## :information_desk_person:TODO
 - PWA化
   - した！ついでにUpdatePopupも追加した。
+    - 追加できてなくね？ありゃ？
 - Google Search Console がうんたらかんたら. ようわからん.
 - KaTeXを使えるようにする. プラグインがあったはず.
 - テーマカラーを変えたいかな. Vuetifyの導入にはあまり前向きでない.
 - Footerをつける
+- Tagを表示
+- Tag別一覧表示
+- last-updated を導入
+
 
 ---
 
