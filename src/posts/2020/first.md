@@ -70,6 +70,7 @@ coming soon...
   - した！ついでにUpdatePopupも追加した。
     - 追加できてなくね？ありゃ？
 - Google Search Console がうんたらかんたら. ようわからん.
+  - した！[Google Search ConsoleをHugoブログ+Netlifyの環境に設定する方法](https://cloudlance-motio.work/post/netlify-google-search-console/)の通りに行なった. "Jabelic blog"で最上位に出てきた. やったぜ.
 - KaTeXを使えるようにする. プラグインがあったはず.
 - テーマカラーを変えたいかな. Vuetifyの導入にはあまり前向きでない.
 - Footerをつける
