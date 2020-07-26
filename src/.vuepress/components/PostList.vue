@@ -8,7 +8,7 @@
             <div class="photo-outer">
                     <img v-if="post.frontmatter.num == 1" src="../assets/profile.png">
                     <img v-if="post.frontmatter.num == 2" src="../assets/2.png">
-                    <img v-if="post.frontmatter.num == 3" src="../assets/COVIDpic/newSIQRmodel-I-1.png">
+                    <img v-if="post.frontmatter.num == 3" src="../assets/COVIDpic/newSIQR-I-case1.png">
                     <!--img v-if="post.frontmatter.img" :src="$withBase(post.frontmatter.img)" alt=""-->
              </div>
             <div class="text-outer">
