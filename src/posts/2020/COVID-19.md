@@ -5,7 +5,7 @@ description: COVID-19感染拡大を抑える有効な政策について.
 sidebar: auto
 author: Jabelic
 img: /COVIDpic/newSIQRmodel-I-1.png
-num: 1
+num: 3
 meta:
   - name: first article
     content: 自己紹介とか.
