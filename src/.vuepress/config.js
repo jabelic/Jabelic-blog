@@ -21,6 +21,12 @@ module.exports = {
     ],
     plugins: [
         [
+          '@maginapp/vuepress-plugin-katex',
+          {
+            delimiters: 'dollars'
+          }
+        ],
+        [
           '@vuepress/google-analytics',
           {
             'ga': 'UA-148177675-2' // UA-00000000-0, GoogleAnalyticsトラッキングID
