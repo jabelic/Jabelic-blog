@@ -4,7 +4,7 @@ date: 2019-08-04
 description: 現象数理学科について, 受験生のために.
 sidebar: auto
 author: Jabelic
-img: /nakano_canpus.jpg
+img: /nakano_campus.jpg
 num: 4
 meta:
   - name: 入学エントリ
@@ -68,3 +68,4 @@ settings:
 ## おわりに
 
 中野という好立地, 数学とスタバでMac. どうですか.
+
