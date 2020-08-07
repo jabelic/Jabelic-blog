@@ -1,4 +1,5 @@
 /* eslint-disable no-console */
+const path = require("path");
 module.exports = {
     themeConfig: {
       nav: [
@@ -20,6 +21,17 @@ module.exports = {
       ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
     ],
     plugins: [
+      [
+        '@vuepress/medium-zoom',
+        {
+          selector: 'img.zoom-custom-imgs',
+          // medium-zoom options here
+          // See: https://github.com/francoischalifour/medium-zoom#options
+          options: {
+            margin: 16
+          }
+        }
+      ],
         [
           '@maginapp/vuepress-plugin-katex',
           {
@@ -60,5 +72,12 @@ module.exports = {
           }
           }
         ]
-    ]
-  }
+    ],
+    configureWebpack: {
+      resolve: {
+        alias: {
+          '@assets': path.resolve(__dirname,"../assets")
+        }
+      }
+    }
+}

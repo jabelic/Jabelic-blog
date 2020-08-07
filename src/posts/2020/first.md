@@ -62,17 +62,20 @@ Qiitaやnoteでも良いと思いましたし今までも少しだけ投稿し�
 
 
 ## :information_desk_person:Trouble shooting
-coming soon...
-
+- katex
+  - `align`環境をサポートしていなかった. `aligned`はサポートされているのでこれを使う.
+    - [#issues 1007](https://github.com/KaTeX/KaTeX/issues/1007)
 
 ## :information_desk_person:TODO
 - PWA化
   - した！ついでにUpdatePopupも追加した。
     - 追加できてなくね？ありゃ？
+    - できた.
 - Google Search Console がうんたらかんたら. ようわからん.
   - した！[Google Search ConsoleをHugoブログ+Netlifyの環境に設定する方法](https://cloudlance-motio.work/post/netlify-google-search-console/)の通りに行なった. "Jabelic blog"で最上位に出てきた. やったぜ.
   - buildコマンドを実行しないとPWAのホップアップが出てこないこともわかった(PCだと+ボタン).
 - KaTeXを使えるようにする. プラグインがあったはず.
+  - できた. `align`をサポートしてなくて, `aligned`を使わなければならない.
 - テーマカラーを変えたいかな. Vuetifyの導入にはあまり前向きでない.
 - Footerをつける
 - Tagを表示
