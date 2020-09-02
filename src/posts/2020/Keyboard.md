@@ -4,7 +4,7 @@ date: 2019-08-25
 description: 赤軸 progresstouch retro tiny
 sidebar: auto
 author: Jabelic
-img: /
+img: ../assets/retroTinyBox.jpg
 num: 5
 meta:
   - name: キーボード

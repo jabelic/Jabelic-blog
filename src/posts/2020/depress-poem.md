@@ -4,7 +4,7 @@ date: 2019-07-20
 description: 報道/SNS/ガイドライン/倫理
 sidebar: auto
 author: Jabelic
-img: ../../../assets/forZoomImg2.png
+img: ../assets/forZoomImg2.png
 num: 2
 meta:
   - name: 訃報

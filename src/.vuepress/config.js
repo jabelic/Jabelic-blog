@@ -71,7 +71,8 @@ module.exports = {
               buttonText: "Refresh"
           }
           }
-        ]
+        ],
+        ['@vuepress/last-updated']
     ],
     configureWebpack: {
       resolve: {
