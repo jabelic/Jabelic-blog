@@ -9,7 +9,6 @@ num: 7
 settings:
   category: 技術
   tags:
-    - 
     - hackathon
     - 技術ブログ
 ---
