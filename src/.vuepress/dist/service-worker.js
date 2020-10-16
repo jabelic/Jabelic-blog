@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "97209546d95ff15bac6499a352555c35"
+    "revision": "7a0cdc621dc9a1d4c67af144d25a36fb"
   },
   {
-    "url": "assets/css/0.styles.390b1379.css",
-    "revision": "d0795f7fc5a1e3129493aa5cea3c8e4b"
+    "url": "assets/css/0.styles.2dd66479.css",
+    "revision": "2e369b392001f6e29433f05b79a80943"
   },
   {
     "url": "assets/fonts/KaTeX_AMS-Regular.7f06b4e3.woff",
@@ -238,8 +238,16 @@ self.__precacheManifest = [
     "revision": "6cc31ea5c223c88705a13727a71417fa"
   },
   {
+    "url": "assets/img/mac.01f0dee6.jpg",
+    "revision": "01f0dee692a6e97ccb9b53e36402b278"
+  },
+  {
     "url": "assets/img/nakano_campus.a864b2a4.jpg",
     "revision": "a864b2a459a08f85533f5eb4951242ff"
+  },
+  {
+    "url": "assets/img/NCChackathon20summer.8fe156fe.png",
+    "revision": "8fe156fee53b76129eea89ec08b04009"
   },
   {
     "url": "assets/img/newSIQR-I-case1.bc206f8b.png",
@@ -298,68 +306,88 @@ self.__precacheManifest = [
     "revision": "d60453ea51f77195e105538db061ccba"
   },
   {
-    "url": "assets/js/10.a94a3720.js",
-    "revision": "5267a6a108fd9ba13559af1771a163b2"
+    "url": "assets/img/utsusemi.c86b2644.png",
+    "revision": "c86b26445f87dd678d09cb5c82079c32"
   },
   {
-    "url": "assets/js/11.e3f2d0a8.js",
-    "revision": "f9b434ce33c2d1b18b30b07277d5c3d4"
+    "url": "assets/js/10.33d3eb41.js",
+    "revision": "c43b0a941a8bd23c5f5f14b58509c1be"
   },
   {
-    "url": "assets/js/12.41593996.js",
-    "revision": "3e995aa57958198f3bfd6e416e332936"
+    "url": "assets/js/11.102f1245.js",
+    "revision": "db92e612738e393348904afcf3ce6bd8"
   },
   {
-    "url": "assets/js/13.6bff759e.js",
-    "revision": "c0972f50b077ce5b61db459e393a444a"
+    "url": "assets/js/12.189433ac.js",
+    "revision": "ea3145371efbd160510593aacbf90f5c"
   },
   {
-    "url": "assets/js/14.4e9dc3bd.js",
-    "revision": "83be8102422617db8657c0fe1c237a1a"
+    "url": "assets/js/13.5a15d059.js",
+    "revision": "91eca21edd59e7038b308fa747ac5a13"
   },
   {
-    "url": "assets/js/15.98e8ea19.js",
-    "revision": "77bca0f5919ad4237b9ccae901c17f6f"
+    "url": "assets/js/14.094eef06.js",
+    "revision": "d9a5f463aa54437ee7647e4d6e36c23b"
   },
   {
-    "url": "assets/js/16.0c8a298e.js",
-    "revision": "0b4c79dfd84c0f1faea49cce62632a98"
+    "url": "assets/js/15.6d27d504.js",
+    "revision": "40d5fa10b1d1995a378c268969bfe0e4"
   },
   {
-    "url": "assets/js/2.5354949a.js",
-    "revision": "fd1088ee23d82d3f9616adaf6c04ec12"
+    "url": "assets/js/16.fe063cfb.js",
+    "revision": "5aba4485377256ca0b5c16a7be54abf0"
   },
   {
-    "url": "assets/js/3.bf397335.js",
-    "revision": "3d8097338a1b28ab2fe693b6d87a63d6"
+    "url": "assets/js/17.3a9bf0a4.js",
+    "revision": "713e1b0cd05cd7b4170c73a5da228806"
   },
   {
-    "url": "assets/js/4.fbd72e95.js",
-    "revision": "fcc9968dbcfb0189e2242db7e59e43f5"
+    "url": "assets/js/18.4b2c212b.js",
+    "revision": "3879c20b18d07eeae866b397c67cb39e"
   },
   {
-    "url": "assets/js/5.68cb39ad.js",
-    "revision": "88ad182c22d121d5cfc9a3359d66624b"
+    "url": "assets/js/19.6fe4ae56.js",
+    "revision": "b8401ffd3800c5fb1db85ce6d5fd54bb"
   },
   {
-    "url": "assets/js/6.14000f86.js",
-    "revision": "40e89e9eebda38cbf57ba0bdf37f7c71"
+    "url": "assets/js/2.6fa5cf06.js",
+    "revision": "e497bf67c2125858510c75445317f823"
   },
   {
-    "url": "assets/js/7.fd95fecc.js",
-    "revision": "e0d3b112b66f519a34f57b0a3b63c64a"
+    "url": "assets/js/20.a01cfd56.js",
+    "revision": "c9002417eb1bda2604b9b2757135b5c6"
   },
   {
-    "url": "assets/js/8.3157cb24.js",
-    "revision": "79adfb24a3307e4ce36f4cf479073a44"
+    "url": "assets/js/3.bd6171c0.js",
+    "revision": "78cabedacdbaa12824d418dbdba6d927"
   },
   {
-    "url": "assets/js/9.d412f51d.js",
-    "revision": "485de1a890e4233220ee00b769929a67"
+    "url": "assets/js/4.e5e2d090.js",
+    "revision": "50433341d815ab91507a160622558494"
   },
   {
-    "url": "assets/js/app.af6265fa.js",
-    "revision": "0e22731e89717f037b05d413b92c672f"
+    "url": "assets/js/5.fe12a574.js",
+    "revision": "36f5442a7f88bcc52efa77eb5c7870b8"
+  },
+  {
+    "url": "assets/js/6.1052615b.js",
+    "revision": "e22b4839de553407012397de1e2a20cf"
+  },
+  {
+    "url": "assets/js/7.c0dfe7f4.js",
+    "revision": "138c06364cae99b833d959ed183cb579"
+  },
+  {
+    "url": "assets/js/8.a1915539.js",
+    "revision": "a353378d720b259e870fe04c99603b88"
+  },
+  {
+    "url": "assets/js/9.14ef880e.js",
+    "revision": "cdbe4f3ec21e8fb63ef149ee4ba1b14c"
+  },
+  {
+    "url": "assets/js/app.9f90a816.js",
+    "revision": "2383b5f45a0eac8275c97577ebb231cb"
   },
   {
     "url": "favicon.png",
@@ -367,31 +395,47 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "2a199a1ec4dea6d56502c5e94a34851e"
+    "revision": "7b38f74c7c78dcae4c0c1f6678faa88c"
   },
   {
     "url": "info/info.html",
-    "revision": "3a6fd03fbf13e76ce9677cabd5ce5731"
+    "revision": "511ebbc026984ccf6a51f99693f0b920"
   },
   {
     "url": "posts/2020/COVID-19.html",
-    "revision": "7e19a6f6bf2a451fb257705d7fd2b0a3"
+    "revision": "2bbdd694a648921ee0cd6d712a779bae"
   },
   {
     "url": "posts/2020/depress-poem.html",
-    "revision": "1a69991385a4caf5791eda1049285b7e"
+    "revision": "74be1eeed3860954e3240de4edf2504b"
   },
   {
     "url": "posts/2020/first.html",
-    "revision": "30857a75cf3834ef6a84797d9240f69e"
+    "revision": "acab051ba39e5fc3ba2570cb5d44c4a2"
+  },
+  {
+    "url": "posts/2020/GASTrello.html",
+    "revision": "8c9f11307d41c91c2c8e31aa7805dc0f"
   },
   {
     "url": "posts/2020/Keyboard.html",
-    "revision": "57932d1bc5a8d2942e0fd387df812fe1"
+    "revision": "808c5b5d11920fbacf8597f1a3171124"
+  },
+  {
+    "url": "posts/2020/MacBookPro.html",
+    "revision": "c3b75a10b6681b03279ca3e837847a33"
   },
   {
     "url": "posts/2020/MSEntry.html",
-    "revision": "2402a4d46112b1574cea3d4b41aebfe8"
+    "revision": "38ec7af2dda333c781da26b2ef290ba8"
+  },
+  {
+    "url": "posts/2020/NCChackathon20summer.html",
+    "revision": "d8e9a59a9b0607f16b91e11cf85c8c33"
+  },
+  {
+    "url": "posts/2020/utsusemi.html",
+    "revision": "200ce0c859034cc4d44ba9dfdb9dc347"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
