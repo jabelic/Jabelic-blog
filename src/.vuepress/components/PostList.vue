@@ -16,6 +16,7 @@
                     <img v-if="post.frontmatter.num == 7" src="../assets/NCChackathon20summer.png">
                     <img v-if="post.frontmatter.num == 8" src="../assets/GAS.png">
                     <img v-if="post.frontmatter.num == 9" src="../assets/mac.jpg">
+                    <img v-if="post.frontmatter.num == 10" src="../assets/menu.png">
                     <!--img v-if="post.frontmatter.img" :src="$withBase(post.frontmatter.img)" alt=""-->
              </div>
             <div class="text-outer">

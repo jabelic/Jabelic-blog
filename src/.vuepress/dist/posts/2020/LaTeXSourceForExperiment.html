@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>実験レポートのためのLaTeX</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="icon" href="/logo.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon-152x152.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#3eaf7c">
+    <meta name="description" content="">
+    <meta property="article:published_time" content="2019-10-22T00:00:00.000Z">
+    <meta property="og:title" content="実験レポートのためのLaTeX">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://jabelic.netlify.app/posts/2020/LaTeXSourceForExperiment.html">
+    <meta name="twitter:title" content="実験レポートのためのLaTeX">
+    <meta name="twitter:url" content="https://jabelic.netlify.app/posts/2020/LaTeXSourceForExperiment.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileImage" content="/icons/msapplication-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#000000">
+    <link rel="preload" href="/assets/css/0.styles.f52a88aa.css" as="style"><link rel="preload" href="/assets/js/app.c722d8a3.js" as="script"><link rel="preload" href="/assets/js/2.4ae104a7.js" as="script"><link rel="preload" href="/assets/js/5.60c010bf.js" as="script"><link rel="preload" href="/assets/js/6.62a62fa1.js" as="script"><link rel="prefetch" href="/assets/js/10.9309796e.js"><link rel="prefetch" href="/assets/js/11.062c8e9d.js"><link rel="prefetch" href="/assets/js/12.bfb6bd30.js"><link rel="prefetch" href="/assets/js/13.a0b3974f.js"><link rel="prefetch" href="/assets/js/14.58d826f7.js"><link rel="prefetch" href="/assets/js/15.c744da99.js"><link rel="prefetch" href="/assets/js/16.378037d8.js"><link rel="prefetch" href="/assets/js/17.26e5cd74.js"><link rel="prefetch" href="/assets/js/18.60cc4740.js"><link rel="prefetch" href="/assets/js/19.e1a6c381.js"><link rel="prefetch" href="/assets/js/20.545a07c4.js"><link rel="prefetch" href="/assets/js/21.a194a6a2.js"><link rel="prefetch" href="/assets/js/3.27428434.js"><link rel="prefetch" href="/assets/js/4.d8184bf0.js"><link rel="prefetch" href="/assets/js/7.0ebc5513.js"><link rel="prefetch" href="/assets/js/8.62a85fef.js"><link rel="prefetch" href="/assets/js/9.4b9a150e.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.f52a88aa.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/info/info.html" class="nav-link">
+  About
+</a></div><div class="nav-item"><a href="https://github.com/jabelic" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/info/info.html" class="nav-link">
+  About
+</a></div><div class="nav-item"><a href="https://github.com/jabelic" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>実験レポートのためのLaTeX</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/posts/2020/LaTeXSourceForExperiment.html#overleafのススメ" class="sidebar-link">Overleafのススメ</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/posts/2020/LaTeXSourceForExperiment.html#overleafの日本語設定" class="sidebar-link">Overleafの日本語設定</a></li></ul></li><li><a href="/posts/2020/LaTeXSourceForExperiment.html#latexの基本的な使い方" class="sidebar-link">LaTeXの基本的な使い方</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/posts/2020/LaTeXSourceForExperiment.html#実験レポート用のソースコード" class="sidebar-link">実験レポート用のソースコード</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/posts/2020/LaTeXSourceForExperiment.html#実験レポートでよく使うなにか" class="sidebar-link">実験レポートでよく使うなにか</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="実験レポートのためのlatex"><a href="#実験レポートのためのlatex" class="header-anchor">#</a> 実験レポートのためのLaTeX</h1> <p>実験レポートのためのLaTeXのスクリプトをおいておきます。</p> <p><a href="https://qiita.com/jabelic/items/bf0b86882a4f3525661d" target="_blank" rel="noopener noreferrer">LaTeX tips for student(me) - Qiita<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>とか<a href="https://qiita.com/jabelic/items/7c8c10d241449d834878" target="_blank" rel="noopener noreferrer">TeX/LaTeX入門講座<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>の内容もちょっとだけ載せておきます。</p> <h2 id="overleafのススメ"><a href="#overleafのススメ" class="header-anchor">#</a> Overleafのススメ</h2> <p>LaTeXの環境を整えるのはとても大変です。こんな感じで(<a href="https://scrapbox.io/jabelic-public/LaTeX_%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89" target="_blank" rel="noopener noreferrer">LaTeX 環境構築 - scrapbox.io/jabelic-public<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>)手間がかかるし時間もかかるので、サクッとレポートないしは文書を作成したい場合はオンラインエディタを使うのが懸命だと思います。
+オンラインエディタとして一番有名なのが<a href="http://overleaf.com/" target="_blank" rel="noopener noreferrer">Overleaf<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>です。</p> <h3 id="overleafの日本語設定"><a href="#overleafの日本語設定" class="header-anchor">#</a> Overleafの日本語設定</h3> <br> <details><summary>blankProjectを作成(クリックで開く)</summary> <img src="/assets/img/home-ol.1a033bc6.png" width="100%"></details> <br> <details><summary>latexmkrcというファイルに以下をコピペ（拡張子なし）(クリックで開く)</summary> <img src="/assets/img/latexmkrc.a63e6923.png" width="100%"></details> <div class="language-tex extra-class"><pre class="language-tex"><code><span class="token equation string">$latex = 'platex';
+$</span>bibtex = 'pbibtex';
+$dvipdf = 'dvipdfmx <span class="token comment">%O -o %D %S';</span>
+$makeindex = 'mendex <span class="token comment">%O -o %D %S';</span>
+$pdf_mode = 3;
+</code></pre></div><br> <details><summary>Menuを開く(クリックで開く)</summary> <img src="/assets/img/menu.3f45fb04.png" width="100%"></details> <br> <details><summary>&quot;latex&quot;を選ぶ(クリックで開く)</summary> <img src="/assets/img/choice_latex.1595c416.png" width="100%"></details> <h2 id="latexの基本的な使い方"><a href="#latexの基本的な使い方" class="header-anchor">#</a> LaTeXの基本的な使い方</h2> <p><a href="https://qiita.com/jabelic/items/7c8c10d241449d834878" target="_blank" rel="noopener noreferrer">TeX/LaTeX入門講座<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>参照。気が向けばここにも書く。</p> <h2 id="実験レポート用のソースコード"><a href="#実験レポート用のソースコード" class="header-anchor">#</a> 実験レポート用のソースコード</h2> <p>コピペして使ってね。</p> <details><summary>ソースコード(クリックで開く)</summary> <div class="language-tex extra-class"><pre class="language-tex"><code><span class="token function selector">\documentclass</span><span class="token punctuation">{</span><span class="token keyword">jarticle</span><span class="token punctuation">}</span>
+<span class="token function selector">\usepackage</span><span class="token punctuation">{</span><span class="token keyword">geometry</span><span class="token punctuation">}</span>
+<span class="token comment">%\usepackage[dvipdfmx]{graphicx}</span>
+<span class="token function selector">\usepackage</span><span class="token punctuation">{</span><span class="token keyword">amssymb</span><span class="token punctuation">}</span><span class="token comment">%白抜き文字(mathbb)</span>
+<span class="token function selector">\usepackage</span><span class="token punctuation">[</span>dvipdfmx<span class="token punctuation">]</span><span class="token punctuation">{</span><span class="token keyword">hyperref,graphicx</span><span class="token punctuation">}</span>
+<span class="token function selector">\usepackage</span><span class="token punctuation">{</span><span class="token keyword">pxrubrica</span><span class="token punctuation">}</span>
+<span class="token function selector">\usepackage</span><span class="token punctuation">{</span><span class="token keyword">bm</span><span class="token punctuation">}</span>
+<span class="token function selector">\usepackage</span><span class="token punctuation">{</span><span class="token keyword">amsmath</span><span class="token punctuation">}</span>
+<span class="token function selector">\usepackage</span><span class="token punctuation">{</span><span class="token keyword">ascmac</span><span class="token punctuation">}</span>
+<span class="token function selector">\usepackage</span><span class="token punctuation">{</span><span class="token keyword">comment</span><span class="token punctuation">}</span>
+<span class="token function selector">\usepackage</span><span class="token punctuation">{</span><span class="token keyword">url</span><span class="token punctuation">}</span>
+<span class="token function selector">\usepackage</span><span class="token punctuation">{</span><span class="token keyword">siunitx</span><span class="token punctuation">}</span>
+<span class="token function selector">\usepackage</span><span class="token punctuation">{</span><span class="token keyword">listings</span><span class="token punctuation">}</span>
+<span class="token function selector">\usepackage</span><span class="token punctuation">{</span><span class="token keyword">here</span><span class="token punctuation">}</span><span class="token comment">%[H]で強制的にその位置に図や表を出力</span>
+<span class="token function selector">\lstset</span><span class="token punctuation">{</span><span class="token comment">%</span>
+  language=<span class="token punctuation">{</span>Python<span class="token punctuation">}</span>,
+  basicstyle=<span class="token punctuation">{</span><span class="token function selector">\small</span><span class="token punctuation">}</span>,<span class="token comment">%</span>
+  identifierstyle=<span class="token punctuation">{</span><span class="token function selector">\small</span><span class="token punctuation">}</span>,<span class="token comment">%</span>
+  commentstyle=<span class="token punctuation">{</span><span class="token function selector">\small</span><span class="token function selector">\itshape</span><span class="token function selector">\color</span><span class="token punctuation">[</span>rgb<span class="token punctuation">]</span><span class="token punctuation">{</span>0,0.5,0<span class="token punctuation">}</span><span class="token punctuation">}</span>,<span class="token comment">%</span>
+  keywordstyle=<span class="token punctuation">{</span><span class="token function selector">\small</span><span class="token function selector">\bfseries</span><span class="token function selector">\color</span><span class="token punctuation">[</span>rgb<span class="token punctuation">]</span><span class="token punctuation">{</span>0,0,1<span class="token punctuation">}</span><span class="token punctuation">}</span>,<span class="token comment">%</span>
+  ndkeywordstyle=<span class="token punctuation">{</span><span class="token function selector">\small</span><span class="token punctuation">}</span>,<span class="token comment">%</span>
+  stringstyle=<span class="token punctuation">{</span><span class="token function selector">\small</span><span class="token function selector">\ttfamily</span><span class="token function selector">\color</span><span class="token punctuation">[</span>rgb<span class="token punctuation">]</span><span class="token punctuation">{</span>1,0,1<span class="token punctuation">}</span><span class="token punctuation">}</span>,
+  frame=<span class="token punctuation">{</span>tb<span class="token punctuation">}</span>,
+  breaklines=true,
+  columns=<span class="token punctuation">[</span>l<span class="token punctuation">]</span><span class="token punctuation">{</span>fullflexible<span class="token punctuation">}</span>,<span class="token comment">%</span>
+  numbers=left,<span class="token comment">%</span>
+  xrightmargin=0zw,<span class="token comment">%</span>
+  xleftmargin=3zw,<span class="token comment">%</span>
+  numberstyle=<span class="token punctuation">{</span><span class="token function selector">\scriptsize</span><span class="token punctuation">}</span>,<span class="token comment">%</span>
+  stepnumber=1,
+  numbersep=1zw,<span class="token comment">%</span>
+  lineskip=-0.5ex<span class="token comment">%</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">%\begin{eqnarray*}\end{eqnarray*}</span>
+<span class="token function selector">\title</span><span class="token punctuation">{</span> 第n回 <span class="token punctuation">}</span>
+<span class="token function selector">\author</span><span class="token punctuation">{</span> 年組 No. <span class="token function selector">\\</span>共同実験者： <span class="token function selector">\\</span>指導教員：<span class="token punctuation">}</span>
+<span class="token function selector">\date</span><span class="token punctuation">{</span>実験日：..2019<span class="token function selector">\ </span><span class="token function selector">\ </span><span class="token function selector">\ </span>天候：　気温：<span class="token function selector">\si</span><span class="token punctuation">{</span><span class="token function selector">\degreeCelsius</span><span class="token punctuation">}</span>　湿度：\<span class="token comment">%}</span>
+<span class="token function selector">\begin</span><span class="token punctuation">{</span><span class="token keyword">document</span><span class="token punctuation">}</span>
+
+<span class="token function selector">\maketitle</span>
+<span class="token function selector">\tableofcontents</span><span class="token comment">%目次を表示</span>
+
+<span class="token function selector">\newpage</span>
+<span class="token function selector">\section</span><span class="token punctuation">{</span><span class="token headline class-name">実験の目的</span><span class="token punctuation">}</span>
+<span class="token function selector">\begin</span><span class="token punctuation">{</span><span class="token keyword">enumerate</span><span class="token punctuation">}</span>
+<span class="token function selector">\item</span> hoge
+<span class="token function selector">\item</span> huga
+<span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">enumerate</span><span class="token punctuation">}</span>
+
+<span class="token function selector">\section</span><span class="token punctuation">{</span><span class="token headline class-name">実験の原理</span><span class="token punctuation">}</span>
+<span class="token function selector">\begin</span><span class="token punctuation">{</span><span class="token keyword">equation*</span><span class="token punctuation">}</span><span class="token equation string">
+<span class="token equation-command regex">\hat</span>{<span class="token equation-command regex">\bm</span>{w}}<span class="token equation-command regex">\bm</span>{x} + <span class="token equation-command regex">\hat</span>{b} = 
+     <span class="token equation-command regex">\left</span><span class="token equation-command regex">\{</span>
+     <span class="token equation-command regex">\begin</span>{aligned}
+          = <span class="token equation-command regex">\geq</span> 0 <span class="token equation-command regex">\hspace</span>{5mm}<span class="token equation-command regex">\Longrightarrow</span><span class="token equation-command regex">\hspace</span>{5mm}G_1<span class="token equation-command regex">\\</span>
+          = &lt; 0 <span class="token equation-command regex">\hspace</span>{5mm}<span class="token equation-command regex">\Longrightarrow</span><span class="token equation-command regex">\hspace</span>{5mm}G_2<span class="token equation-command regex">\\</span>
+     <span class="token equation-command regex">\end</span>{aligned}
+     <span class="token equation-command regex">\right</span>.
+ </span><span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">equation*</span><span class="token punctuation">}</span>
+
+<span class="token function selector">\section</span><span class="token punctuation">{</span><span class="token headline class-name">実験方法</span><span class="token punctuation">}</span>
+<span class="token function selector">\begin</span><span class="token punctuation">{</span><span class="token keyword">equation</span><span class="token punctuation">}</span><span class="token equation string"><span class="token equation-command regex">\
+</span>     <span class="token equation-command regex">\begin</span>{aligned}<span class="token equation-command regex">\
+</span><span class="token equation-command regex">\verb</span>|<span class="token equation-command regex">\begin</span>{equation}|<span class="token equation-command regex">\\</span>
+<span class="token equation-command regex">\verb</span>|<span class="token equation-command regex">\begin</span>{matrix}|<span class="token equation-command regex">\\</span>
+<span class="token equation-command regex">\verb</span>|a_{11}&amp;a_{12}<span class="token equation-command regex">\\</span>|<span class="token equation-command regex">\\</span>
+<span class="token equation-command regex">\verb</span>|a_{21} &amp; a_{22}<span class="token equation-command regex">\\</span>|<span class="token equation-command regex">\\</span>
+<span class="token equation-command regex">\verb</span>|<span class="token equation-command regex">\end</span>{matrix}|<span class="token equation-command regex">\\</span>
+<span class="token equation-command regex">\verb</span>|</span><span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">equation</span><span class="token punctuation">}</span>|<span class="token function selector">\\</span>
+     <span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">aligned</span><span class="token punctuation">}</span><span class="token function selector">\
+</span>     <span class="token function selector">\quad</span> <span class="token function selector">\text</span><span class="token punctuation">{</span><span class="token equation string">$<span class="token equation-command regex">\hspace</span>{10mm}<span class="token equation-command regex">\Longrightarrow</span><span class="token equation-command regex">\hspace</span>{10mm}$</span><span class="token punctuation">}</span><span class="token function selector">\
+</span>     <span class="token function selector">\begin</span><span class="token punctuation">{</span><span class="token keyword">aligned</span><span class="token punctuation">}</span><span class="token function selector">\
+</span><span class="token function selector">\begin</span><span class="token punctuation">{</span><span class="token keyword">matrix</span><span class="token punctuation">}</span><span class="token function selector">\
+</span>a_<span class="token punctuation">{</span>11<span class="token punctuation">}</span><span class="token punctuation">&amp;</span>a_<span class="token punctuation">{</span>12<span class="token punctuation">}</span><span class="token function selector">\\</span>
+a_<span class="token punctuation">{</span>21<span class="token punctuation">}</span> <span class="token punctuation">&amp;</span> a_<span class="token punctuation">{</span>22<span class="token punctuation">}</span><span class="token function selector">\\</span>
+<span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">matrix</span><span class="token punctuation">}</span><span class="token function selector">\
+</span>     <span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">aligned</span><span class="token punctuation">}</span><span class="token function selector">\
+</span> <span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">equation</span><span class="token punctuation">}</span><span class="token function selector">\
+</span>
+<span class="token function selector">\begin</span><span class="token punctuation">{</span><span class="token keyword">equation</span><span class="token punctuation">}</span><span class="token function selector">\
+</span><span class="token comment">%\begin{aligned}\</span>
+<span class="token function selector">\begin</span><span class="token punctuation">{</span><span class="token keyword">matrix</span><span class="token punctuation">}</span><span class="token function selector">\
+</span>a_<span class="token punctuation">{</span>11<span class="token punctuation">}</span><span class="token punctuation">&amp;</span>a_<span class="token punctuation">{</span>12<span class="token punctuation">}</span><span class="token function selector">\\</span>
+a_<span class="token punctuation">{</span>21<span class="token punctuation">}</span> <span class="token punctuation">&amp;</span> a_<span class="token punctuation">{</span>22<span class="token punctuation">}</span><span class="token function selector">\\</span>
+<span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">matrix</span><span class="token punctuation">}</span><span class="token function selector">\
+</span><span class="token comment">%\end{aligned}\</span>
+ <span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">equation</span><span class="token punctuation">}</span><span class="token function selector">\
+</span>
+
+
+
+<span class="token function selector">\section</span><span class="token punctuation">{</span><span class="token headline class-name">実験装置・器具の情報</span><span class="token punctuation">}</span>
+<span class="token function selector">\subsection</span><span class="token punctuation">{</span><span class="token headline class-name">用意したもの</span><span class="token punctuation">}</span>
+
+<span class="token function selector">\section</span><span class="token punctuation">{</span><span class="token headline class-name">実験結果</span><span class="token punctuation">}</span>
+
+<span class="token function selector">\section</span><span class="token punctuation">{</span><span class="token headline class-name">考察</span><span class="token punctuation">}</span>
+
+<span class="token function selector">\section</span><span class="token punctuation">{</span><span class="token headline class-name">課題</span><span class="token punctuation">}</span>
+
+<span class="token function selector">\begin</span><span class="token punctuation">{</span><span class="token keyword">thebibliography</span><span class="token punctuation">}</span><span class="token punctuation">{</span>9<span class="token punctuation">}</span>
+  <span class="token comment">%\bibitem{1} 並木雅俊 「大学生のための物理入門」P.95, 98 (2010).</span>
+  <span class="token comment">%\bibitem{1}\href{http://www.wakariyasui.sakura.ne.jp/p/wave/onnpa/onnpa.html}{音波　■わかりやすい高校物理の部屋■}\url{http://www.wakariyasui.sakura.ne.jp/p/wave/onnpa/onnpa.html}</span>
+  
+<span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">thebibliography</span><span class="token punctuation">}</span>
+
+<span class="token function selector">\vspace</span><span class="token punctuation">{</span>10.0cm<span class="token punctuation">}</span>
+
+<span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">document</span><span class="token punctuation">}</span>
+
+</code></pre></div></details> <details><summary> 出力(クリックで開く) </summary> <img src="/assets/img/test_for_Qiita_page-0001.03ee5769.jpg" width="100%"> <img src="/assets/img/test_for_Qiita_page-0002.a5bed354.jpg" width="100%"> <img src="/assets/img/test_for_Qiita_page-0003.f634276a.jpg" width="100%"></details> <h2 id="実験レポートでよく使うなにか"><a href="#実験レポートでよく使うなにか" class="header-anchor">#</a> 実験レポートでよく使うなにか</h2> <p><a href="https://qiita.com/jabelic/items/bf0b86882a4f3525661d" target="_blank" rel="noopener noreferrer">LaTeX tips for student(me) - Qiita<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>を参照。後で書くかも。</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"><div class="vuepress-eqn"></div><span class="vuepress-eq"></span><!----></div></div>
+    <script src="/assets/js/app.c722d8a3.js" defer></script><script src="/assets/js/2.4ae104a7.js" defer></script><script src="/assets/js/5.60c010bf.js" defer></script><script src="/assets/js/6.62a62fa1.js" defer></script>
+  </body>
+</html>
