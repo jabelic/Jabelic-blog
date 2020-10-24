@@ -4,6 +4,7 @@
     <p>
       {{message}}
     </p>
+    
   </div>
 </template>
 
