@@ -3,7 +3,7 @@
     <div id="postlist">
         <div v-for="post in posts">
             <a v-bind:href="post.path">
-            <article class="outer">
+            <article v-if="new Date('2020/12/07 07:00').getTime() <= new Date().getTime() || post.frontmatter.num != 11" class="outer">
             <a class="inner" :href="post.path" target="">
             <div class="photo-outer">
                     <!--img src="post.frontmatter.img"-->
@@ -17,6 +17,7 @@
                     <img v-if="post.frontmatter.num == 8" src="../assets/GAS.png">
                     <img v-if="post.frontmatter.num == 9" src="../assets/mac.jpg">
                     <img v-if="post.frontmatter.num == 10" src="../assets/menu.png">
+                    <img v-if="post.frontmatter.num == 11" src="../assets/profile.png">
                     <!--img v-if="post.frontmatter.img" :src="$withBase(post.frontmatter.img)" alt=""-->
              </div>
             <div class="text-outer">
