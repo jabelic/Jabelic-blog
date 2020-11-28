@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>VuePress</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="icon" href="/logo.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon-152x152.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#3eaf7c">
+    <meta name="description" content="NCC AdventCalendar 2020">
+    <meta property="article:published_time" content="2019-11-28T00:00:00.000Z">
+    <meta property="og:description" content="NCC AdventCalendar 2020">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://jabelic.netlify.app/posts/2020/pyenv&pipenv.html">
+    <meta name="twitter:description" content="NCC AdventCalendar 2020">
+    <meta name="twitter:url" content="https://jabelic.netlify.app/posts/2020/pyenv&pipenv.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileImage" content="/icons/msapplication-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#000000">
+    <link rel="preload" href="/assets/css/0.styles.1bd68bb0.css" as="style"><link rel="preload" href="/assets/js/app.a5168066.js" as="script"><link rel="preload" href="/assets/js/2.f6c1b1d3.js" as="script"><link rel="preload" href="/assets/js/20.63180bfd.js" as="script"><link rel="preload" href="/assets/js/6.63385891.js" as="script"><link rel="prefetch" href="/assets/js/10.e94b55c2.js"><link rel="prefetch" href="/assets/js/11.022e74f5.js"><link rel="prefetch" href="/assets/js/12.3a6801f3.js"><link rel="prefetch" href="/assets/js/13.4d6498a0.js"><link rel="prefetch" href="/assets/js/14.438044f3.js"><link rel="prefetch" href="/assets/js/15.d8f743fe.js"><link rel="prefetch" href="/assets/js/16.7cc92dc3.js"><link rel="prefetch" href="/assets/js/17.fb6dca51.js"><link rel="prefetch" href="/assets/js/18.458b8cb4.js"><link rel="prefetch" href="/assets/js/19.7c5dd598.js"><link rel="prefetch" href="/assets/js/21.797b9cdb.js"><link rel="prefetch" href="/assets/js/22.4bca0c48.js"><link rel="prefetch" href="/assets/js/3.68033899.js"><link rel="prefetch" href="/assets/js/4.7393900a.js"><link rel="prefetch" href="/assets/js/5.8ff648b8.js"><link rel="prefetch" href="/assets/js/7.55c9795e.js"><link rel="prefetch" href="/assets/js/8.5e2d601c.js"><link rel="prefetch" href="/assets/js/9.59bc8954.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.1bd68bb0.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/info/info.html" class="nav-link">
+  About
+</a></div><div class="nav-item"><a href="https://github.com/jabelic" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/info/info.html" class="nav-link">
+  About
+</a></div><div class="nav-item"><a href="https://github.com/jabelic" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span></span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/posts/2020/pyenv&amp;pipenv.html#環境" class="sidebar-link">環境</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/posts/2020/pyenv&amp;pipenv.html#pyenvとは" class="sidebar-link">pyenvとは</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/posts/2020/pyenv&amp;pipenv.html#使い方" class="sidebar-link">使い方</a></li></ul></li><li><a href="/posts/2020/pyenv&amp;pipenv.html#pipenvとは" class="sidebar-link">pipenvとは</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/posts/2020/pyenv&amp;pipenv.html#使い方-2" class="sidebar-link">使い方</a></li></ul></li><li><a href="/posts/2020/pyenv&amp;pipenv.html#wslでpipenv" class="sidebar-link">WSLでpipenv</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/posts/2020/pyenv&amp;pipenv.html#pyenvを入れる" class="sidebar-link">pyenvを入れる</a></li><li class="sidebar-sub-header"><a href="/posts/2020/pyenv&amp;pipenv.html#pip入れる" class="sidebar-link">pip入れる</a></li><li class="sidebar-sub-header"><a href="/posts/2020/pyenv&amp;pipenv.html#pipenv入れる" class="sidebar-link">pipenv入れる</a></li></ul></li><li><a href="/posts/2020/pyenv&amp;pipenv.html#参考" class="sidebar-link">参考</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><div>
+2020/12/08 07:00に公開されます。
+</div> <!----></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">11/28/2020, 4:43:58 PM</span></div></footer> <!----> </main></div><div class="global-ui"><div class="vuepress-eqn"></div><span class="vuepress-eq"></span><!----></div></div>
+    <script src="/assets/js/app.a5168066.js" defer></script><script src="/assets/js/2.f6c1b1d3.js" defer></script><script src="/assets/js/20.63180bfd.js" defer></script><script src="/assets/js/6.63385891.js" defer></script>
+  </body>
+</html>
