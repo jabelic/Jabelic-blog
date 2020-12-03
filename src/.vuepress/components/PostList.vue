@@ -3,7 +3,7 @@
     <div id="postlist">
         <div v-for="post in posts">
             <a v-bind:href="post.path">
-            <article v-if="new Date('2020/12/03 07:00').getTime() <= new Date().getTime()" class="outer">
+            <article  class="outer">
             <a class="inner" :href="post.path" target="">
             <div class="photo-outer">
                     <!--img src="post.frontmatter.img"-->

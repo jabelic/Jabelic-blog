@@ -17,11 +17,11 @@ settings:
 <div v-if="new Date('2020/12/03 07:00').getTime() > new Date().getTime()">
 2020/12/03 07:00に公開されます。
 </div>
-<div v-if="new Date('2020/12/03 07:00').getTime() <= new Date().getTime()">
+<!--div v-if="new Date('2020/12/03 07:00').getTime() <= new Date().getTime()"-->
 
 # pyenv & pipenvで環境構築
 
-こんにちは, Jabelicです. 本稿は[NCC Advent Calendar 2020](https://qiita.com/advent-calendar/2020/ncc)8日目の記事です. いやぁ, 枠が埋まらなくて大変ですね...
+こんにちは, Jabelicです. 本稿は[NCC Advent Calendar 2020](https://qiita.com/advent-calendar/2020/ncc)3日目の記事です. いやぁ, 枠が埋まらなくて大変ですね...
 
 今回は自分が使っているpythonの開発環境のメモを紹介します. 現象数理学科の授業ではAnacondaを推奨するアナウンスがされていますが, Anacondaには様々な副作用があることが報告されています.
 
@@ -198,4 +198,4 @@ Pipfile.lockを参照して環境をbuildするなら
 
 
 
-</div>
+<!--/div-->
