@@ -14,9 +14,6 @@ settings:
     - 技術ブログ
 ---
 
-<div v-if="new Date('2020/12/03 07:00').getTime() > new Date().getTime()">
-2020/12/03 07:00に公開されます。
-</div>
 <!--div v-if="new Date('2020/12/03 07:00').getTime() <= new Date().getTime()"-->
 
 # pyenv & pipenvで環境構築
