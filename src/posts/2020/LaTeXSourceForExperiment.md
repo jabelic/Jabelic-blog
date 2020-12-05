@@ -1,7 +1,7 @@
 ---
 titel: 実験レポートのためのLaTeX
 date: 2019-10-22
-description: 
+description:  
 sidebar: auto
 author: Jabelic
 img: ../assets/mac.jpg

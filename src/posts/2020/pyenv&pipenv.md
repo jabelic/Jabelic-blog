@@ -1,5 +1,5 @@
 ---
-titel: pyenv & pipenvで環境構築
+title: pyenv & pipenvで環境構築
 date: 2019-11-28
 description: NCC AdventCalendar 2020
 sidebar: auto
