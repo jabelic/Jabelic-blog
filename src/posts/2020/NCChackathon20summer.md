@@ -1,6 +1,6 @@
 ---
 titel: NCC 2days speed hackathon 2020 summer
-date: 2019-09-20
+date: 2020-09-20
 description: 温泉合宿代替案件、NCC初のオンラインハッカソン開催。
 sidebar: auto
 author: Jabelic

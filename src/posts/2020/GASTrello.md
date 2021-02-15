@@ -1,6 +1,6 @@
 ---
 titel: GASでGoogleForm to Trello
-date: 2019-09-20
+date: 2020-09-20
 description: GoogleFormで得た情報をSpreadSheetを介してTrelloのリストにカードを生成する。
 sidebar: auto
 author: Jabelic

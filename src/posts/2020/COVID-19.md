@@ -1,6 +1,6 @@
 ---
 titel: 数理モデルによる感染症拡大シミュレーション
-date: 2019-08-07
+date: 2020-08-07
 description: COVID-19感染拡大を抑える有効な政策について.
 sidebar: auto
 author: Jabelic

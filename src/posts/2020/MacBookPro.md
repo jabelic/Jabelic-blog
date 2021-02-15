@@ -1,6 +1,6 @@
 ---
 titel: New MacBookPro 環境構築云々
-date: 2019-10-20
+date: 2020-10-20
 description: 新しく導入したMacBook Proの環境構築
 sidebar: auto
 author: Jabelic

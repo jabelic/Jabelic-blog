@@ -1,6 +1,6 @@
 ---
 titel: だいぶ遅めの入学エントリ
-date: 2019-08-04
+date: 2020-08-04
 description: 現象数理学科について, 受験生のために.
 sidebar: auto
 author: Jabelic

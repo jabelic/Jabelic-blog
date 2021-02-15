@@ -1,6 +1,6 @@
 ---
 titel: キーボード買ったった
-date: 2019-08-25
+date: 2020-08-25
 description: 赤軸 progresstouch retro tiny
 sidebar: auto
 author: Jabelic

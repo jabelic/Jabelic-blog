@@ -1,6 +1,6 @@
 ---
 titel: 実験レポートのためのLaTeX
-date: 2019-10-22
+date: 2020-10-22
 description:  
 sidebar: auto
 author: Jabelic

@@ -1,6 +1,6 @@
 ---
 titel: 訃報
-date: 2019-07-20
+date: 2020-07-20
 description: 報道/SNS/ガイドライン/倫理
 sidebar: auto
 author: Jabelic

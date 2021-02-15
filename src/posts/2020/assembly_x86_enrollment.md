@@ -1,6 +1,6 @@
 ---
 titel: アセンブラいろはのい～
-date: 2019-12-08
+date: 2020-12-08
 description: NCC Advent Calendar 2020 8日目
 sidebar: auto
 author: Jabelic

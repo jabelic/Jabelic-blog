@@ -1,6 +1,6 @@
 ---
 titel: first commit
-date: 2019-07-15
+date: 2020-07-15
 description: このブログについて.
 sidebar: auto
 author: Jabelic

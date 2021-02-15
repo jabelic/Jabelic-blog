@@ -1,6 +1,6 @@
 ---
 titel: 今年の記録
-date: 2019-12-04
+date: 2020-12-04
 description: NCC Advent Calendar 2020 4日目
 sidebar: auto
 author: Jabelic

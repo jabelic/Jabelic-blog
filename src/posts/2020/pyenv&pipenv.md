@@ -1,6 +1,6 @@
 ---
 title: pyenv & pipenvで環境構築
-date: 2019-11-28
+date: 2020-11-28
 description: NCC AdventCalendar 2020 3日目
 sidebar: auto
 author: Jabelic
