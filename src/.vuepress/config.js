@@ -1,6 +1,15 @@
 /* eslint-disable no-console */
 const path = require("path");
+const resolve = pathName => path.join(__dirname, pathName)
 module.exports = {
+    base: '/',
+    ga: 'UA-70393520-1',
+    evergreen: true,
+    locales: {
+      '/': {
+        lang: 'ja-JP'
+      },
+    },
     themeConfig: {
       nav: [
         { text: 'Home', link: '/' },
@@ -20,6 +29,15 @@ module.exports = {
       ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
       ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
     ],
+    configureWebpack () {
+      return {
+        resolve: {
+          alias: {
+            '@public': resolve('./public')
+          }
+        }
+      }
+    },
     plugins: [
       [
         '@vuepress/medium-zoom',
@@ -74,11 +92,4 @@ module.exports = {
         ],
         ['@vuepress/last-updated']
     ],
-    configureWebpack: {
-      resolve: {
-        alias: {
-          '@assets': path.resolve(__dirname,"../assets")
-        }
-      }
-    }
 }

@@ -21,6 +21,7 @@
                     <img v-if="post.frontmatter.num == 12" src="../assets/meiji_adobe_1.jpg">
                     <img v-if="post.frontmatter.num == 13" src="../assets/osmanthus.png">
                     <!--img v-if="post.frontmatter.img" :src="$withBase(post.frontmatter.img)" alt=""-->
+                     <img v-if="post.frontmatter.num == 202101" src="../assets/trello-tldr.png">
              </div>
             <div class="text-outer">
             <div class="title">{{ post.title }}</div>

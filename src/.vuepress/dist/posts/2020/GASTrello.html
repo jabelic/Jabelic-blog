@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="ja-JP">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -10,7 +10,7 @@
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon-152x152.png">
     <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#3eaf7c">
     <meta name="description" content="GoogleFormで得た情報をSpreadSheetを介してTrelloのリストにカードを生成する。">
-    <meta property="article:published_time" content="2019-09-20T00:00:00.000Z">
+    <meta property="article:published_time" content="2020-09-20T00:00:00.000Z">
     <meta property="og:title" content="GASでGoogleForm to Trello">
     <meta property="og:description" content="GoogleFormで得た情報をSpreadSheetを介してTrelloのリストにカードを生成する。">
     <meta property="og:type" content="article">
@@ -24,8 +24,8 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="msapplication-TileImage" content="/icons/msapplication-icon-144x144.png">
     <meta name="msapplication-TileColor" content="#000000">
-    <link rel="preload" href="/assets/css/0.styles.b1b5a2ab.css" as="style"><link rel="preload" href="/assets/js/app.a16bdae7.js" as="script"><link rel="preload" href="/assets/js/2.28b283b8.js" as="script"><link rel="preload" href="/assets/js/14.d4e8912f.js" as="script"><link rel="preload" href="/assets/js/6.34461046.js" as="script"><link rel="prefetch" href="/assets/js/10.c32002c7.js"><link rel="prefetch" href="/assets/js/11.e544827a.js"><link rel="prefetch" href="/assets/js/12.7e43d319.js"><link rel="prefetch" href="/assets/js/13.1246776d.js"><link rel="prefetch" href="/assets/js/15.38b49517.js"><link rel="prefetch" href="/assets/js/16.eaa06eb5.js"><link rel="prefetch" href="/assets/js/17.fb6dca51.js"><link rel="prefetch" href="/assets/js/18.ddb5e038.js"><link rel="prefetch" href="/assets/js/19.b6d03b82.js"><link rel="prefetch" href="/assets/js/20.9a051b47.js"><link rel="prefetch" href="/assets/js/21.76e9eb61.js"><link rel="prefetch" href="/assets/js/22.8839e07c.js"><link rel="prefetch" href="/assets/js/23.00b2e747.js"><link rel="prefetch" href="/assets/js/24.ec19b90c.js"><link rel="prefetch" href="/assets/js/3.1370b71c.js"><link rel="prefetch" href="/assets/js/4.f6356b3d.js"><link rel="prefetch" href="/assets/js/5.6fa6989c.js"><link rel="prefetch" href="/assets/js/7.06743747.js"><link rel="prefetch" href="/assets/js/8.c7ba7de9.js"><link rel="prefetch" href="/assets/js/9.215498c5.js">
-    <link rel="stylesheet" href="/assets/css/0.styles.b1b5a2ab.css">
+    <link rel="preload" href="/assets/css/0.styles.6f2474fa.css" as="style"><link rel="preload" href="/assets/js/app.b7986b82.js" as="script"><link rel="preload" href="/assets/js/2.19370e2a.js" as="script"><link rel="preload" href="/assets/js/15.876988ff.js" as="script"><link rel="preload" href="/assets/js/6.359408ab.js" as="script"><link rel="prefetch" href="/assets/js/10.36017911.js"><link rel="prefetch" href="/assets/js/11.74532b6b.js"><link rel="prefetch" href="/assets/js/12.504cfbc8.js"><link rel="prefetch" href="/assets/js/13.594d5aac.js"><link rel="prefetch" href="/assets/js/14.1a476331.js"><link rel="prefetch" href="/assets/js/16.725fc8ea.js"><link rel="prefetch" href="/assets/js/17.74cba5d6.js"><link rel="prefetch" href="/assets/js/18.e8a71fb6.js"><link rel="prefetch" href="/assets/js/19.6c8ecb09.js"><link rel="prefetch" href="/assets/js/20.d844ad19.js"><link rel="prefetch" href="/assets/js/21.81f70a08.js"><link rel="prefetch" href="/assets/js/22.789f704e.js"><link rel="prefetch" href="/assets/js/23.c1106ab8.js"><link rel="prefetch" href="/assets/js/24.724683fe.js"><link rel="prefetch" href="/assets/js/25.172bcfe1.js"><link rel="prefetch" href="/assets/js/3.f5b0e219.js"><link rel="prefetch" href="/assets/js/4.1947328e.js"><link rel="prefetch" href="/assets/js/5.2af59af0.js"><link rel="prefetch" href="/assets/js/7.a3e7a298.js"><link rel="prefetch" href="/assets/js/8.134e71d4.js"><link rel="prefetch" href="/assets/js/9.ccae3781.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.6f2474fa.css">
   </head>
   <body>
     <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
@@ -124,7 +124,7 @@ boardIdに該当のボードidを入れる</p> <div class="language-js extra-cla
    <span class="token function">addCard</span><span class="token punctuation">(</span>customer<span class="token punctuation">)</span><span class="token punctuation">;</span>
  <span class="token punctuation">}</span>
 </code></pre></div><p><code>rowNum</code>で最終行の行数を取得
-<code>notifySheet.getRange('B' + rowNum).getValue</code>で該当のセルの値を得る。</p> <p>これでトリガーを設定しておくと、任意のタイミングで関数が実行されてSpreadSheetからTrelloに情報が渡ると思う。</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">9/20/2020, 11:43:29 PM</span></div></footer> <!----> </main></div><div class="global-ui"><div class="vuepress-eqn"></div><span class="vuepress-eq"></span><!----></div></div>
-    <script src="/assets/js/app.a16bdae7.js" defer></script><script src="/assets/js/2.28b283b8.js" defer></script><script src="/assets/js/14.d4e8912f.js" defer></script><script src="/assets/js/6.34461046.js" defer></script>
+<code>notifySheet.getRange('B' + rowNum).getValue</code>で該当のセルの値を得る。</p> <p>これでトリガーを設定しておくと、任意のタイミングで関数が実行されてSpreadSheetからTrelloに情報が渡ると思う。</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">2021/2/16 1:50:47</span></div></footer> <!----> </main></div><div class="global-ui"><div class="vuepress-eqn"></div><span class="vuepress-eq"></span><!----></div></div>
+    <script src="/assets/js/app.b7986b82.js" defer></script><script src="/assets/js/2.19370e2a.js" defer></script><script src="/assets/js/15.876988ff.js" defer></script><script src="/assets/js/6.359408ab.js" defer></script>
   </body>
 </html>
