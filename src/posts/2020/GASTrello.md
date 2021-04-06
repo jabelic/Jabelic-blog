@@ -41,14 +41,22 @@ GASを使うときは、マスターアカウントでログインしなけれ�
 
      _マスターアカウントでログインする。_
 
-既にスクリプトを作成している場合はスクリプトのURL　`https://script.google.com/d/<ScriptID>`の/d/以降のurlがScriptIDであるので, これをCopyして
+<span style="font-size: 1.3rem;">:warning:</span>既にスクリプトを作成している場合はスクリプトのURL　`https://script.google.com/d/<ScriptID>`の/d/以降のurlがScriptIDであるので, 
+
+
+::: warning 
+現在は
+`https://script.google.com/home/projects/<ScriptID>/edit`
+となっているみたいです。
+:::
+
+これをCopyして
 
 - `$ clasp clone <ScriptID>`
 
 とすれば良い
 
 そうすると、ローカルに`.clasp.json`, `appsscript.json`, `コード.js`が生成される。
-
 
 ## SpreadSheet -> Trello
 
