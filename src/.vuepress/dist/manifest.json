@@ -3,7 +3,17 @@
   "short_name": "Jab",
   "icons": [
     {
-      "src": "favicon.png",
+      "src": "favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "apple-touch-icon-120x120.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "icon.png",
       "sizes": "800x800",
       "type": "image/png"
     }
