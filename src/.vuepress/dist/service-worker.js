@@ -27,7 +27,15 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "97a7aa7fd1ef5b831ae8a7c7a2357ac1"
+    "revision": "e7c1c7ea194d6576f74295d2649e75a6"
+  },
+  {
+    "url": "apple-touch-icon-120x120.png",
+    "revision": "3b491a8c5f04ec216aa06529246774fb"
+  },
+  {
+    "url": "apple-touch-icon-180x180.png",
+    "revision": "6bc40ef312ffe0ab45ef72b5ba2fec28"
   },
   {
     "url": "assets/css/0.styles.5e9f8b09.css",
@@ -362,20 +370,20 @@ self.__precacheManifest = [
     "revision": "618926c624bde5fa04bad602698fd553"
   },
   {
-    "url": "assets/js/13.594d5aac.js",
-    "revision": "69e4144f235acc67e58b9e14623082c8"
+    "url": "assets/js/13.3986d211.js",
+    "revision": "1b566c8352a5ed2592731236c5459d82"
   },
   {
-    "url": "assets/js/14.52120aa1.js",
-    "revision": "14c9ffbb9f4403632e4f725f98f836b4"
+    "url": "assets/js/14.c8a400e0.js",
+    "revision": "d2c75ff2e238c8bc01d9f598785eff72"
   },
   {
-    "url": "assets/js/15.41ee30c2.js",
-    "revision": "cb27ddcda995917ba4bf552af9316c58"
+    "url": "assets/js/15.8bc87016.js",
+    "revision": "e7e80f518398efa14f8a9549b8033fa3"
   },
   {
-    "url": "assets/js/16.b05ca9cb.js",
-    "revision": "d084139ff3a5813a18257bedb6fce262"
+    "url": "assets/js/16.81b526f2.js",
+    "revision": "b2d355028d490db069389937c95e68fa"
   },
   {
     "url": "assets/js/17.07adfc24.js",
@@ -386,28 +394,28 @@ self.__precacheManifest = [
     "revision": "5f71295f7d0eaffb49cc395fc62b5f91"
   },
   {
-    "url": "assets/js/19.3c1af308.js",
-    "revision": "56ed652d7a734f17d9e10707ea0df430"
+    "url": "assets/js/19.31db230b.js",
+    "revision": "b391c4ee7aae92e0b2e32f49eacf0d42"
   },
   {
     "url": "assets/js/2.3d7b797a.js",
     "revision": "a91bd8956f63c08f49c924caf4ba132b"
   },
   {
-    "url": "assets/js/20.3c3cbbe8.js",
-    "revision": "6d8b83c6f3cb84cd2427834bcfeae28e"
+    "url": "assets/js/20.43ec366e.js",
+    "revision": "5f70c88747170cd7d0c34922d33ec216"
   },
   {
-    "url": "assets/js/21.1db21075.js",
-    "revision": "12b2d07b09a4af4d78d8983acb2fa077"
+    "url": "assets/js/21.b7a48c35.js",
+    "revision": "364c8fcfb29d6df0981f45f9481a71cd"
   },
   {
-    "url": "assets/js/22.1feb0cdb.js",
-    "revision": "1b8927fc81368882505c93fb9374e8d9"
+    "url": "assets/js/22.345971dd.js",
+    "revision": "49c61705df01b97e350e8b9e9af1944c"
   },
   {
-    "url": "assets/js/23.f7e7d8a9.js",
-    "revision": "20e93590aa45d3f5313189ad5e897ecf"
+    "url": "assets/js/23.00448c2e.js",
+    "revision": "1ccdb586c280f9fdbeadb51a49ecd475"
   },
   {
     "url": "assets/js/24.1cc01ed2.js",
@@ -426,16 +434,16 @@ self.__precacheManifest = [
     "revision": "9dd2d9bb6f00702a74647b53cfee3abf"
   },
   {
-    "url": "assets/js/5.3533fc9d.js",
-    "revision": "092850d7800fc1b1b7524b631b3d2eb3"
+    "url": "assets/js/5.97a4157f.js",
+    "revision": "a3fa7327ed87f316f5f8529da39f374d"
   },
   {
     "url": "assets/js/6.89850d0b.js",
     "revision": "740f0813af2c923fdde56dc9988a888b"
   },
   {
-    "url": "assets/js/7.1e7399e5.js",
-    "revision": "2981d95b0030236ba5bdff139765101d"
+    "url": "assets/js/7.77afe697.js",
+    "revision": "48fb9961e08ef16a3730c19a71c719d2"
   },
   {
     "url": "assets/js/8.457bb3be.js",
@@ -446,76 +454,84 @@ self.__precacheManifest = [
     "revision": "f70f04f724b6af024047cfa89a7a9bef"
   },
   {
-    "url": "assets/js/app.ef13ed85.js",
-    "revision": "18169582cefd65a6cd810dce870ba9ac"
+    "url": "assets/js/app.ff436adc.js",
+    "revision": "ce14ce31683473cf4097278c07f2b96b"
   },
   {
-    "url": "favicon.png",
+    "url": "favicon 2.png",
+    "revision": "e906f3032bcc541400b1a1ca22ca4323"
+  },
+  {
+    "url": "icon.png",
     "revision": "75428378b9245a7962ed3009ebfd9858"
   },
   {
     "url": "index.html",
-    "revision": "6c2c86166fe1c2d4aaadbc6c2ae69a49"
+    "revision": "50f334c198aa104849cdf9942eed8aa1"
   },
   {
     "url": "info/info.html",
-    "revision": "724a522b8422d2ef68d69cb6721cdd97"
+    "revision": "34e79713c25d5bd369b30eb636cf699d"
+  },
+  {
+    "url": "instagram_profile_image.png",
+    "revision": "4e6704c1afbb1e45aa4d3a578c02fcf4"
   },
   {
     "url": "posts/2020/assembly_x86_enrollment.html",
-    "revision": "d2b6278fc1dc3a25ca9213fa87743829"
+    "revision": "719d06d7896568e66328152bd0b573bf"
   },
   {
     "url": "posts/2020/COVID-19.html",
-    "revision": "a124b43571aadef28e66ea6be36ebb31"
+    "revision": "cc2b4a976659e8c2a2347a5dfe014678"
   },
   {
     "url": "posts/2020/depress-poem.html",
-    "revision": "e1ceed184dea174b5bf7b871cdd28415"
+    "revision": "eaa5c8711b92f81f735b50332f34fd14"
   },
   {
     "url": "posts/2020/first.html",
-    "revision": "95b3461cf1c337a80b22ad86bcaa8137"
+    "revision": "be67b2233fa400b5b5301ec26c203070"
   },
   {
     "url": "posts/2020/GASTrello.html",
-    "revision": "aff51ed6c34493412c3c0b3f0374099f"
+    "revision": "20c98f61f29251b5bf8a1de570e3661e"
   },
   {
     "url": "posts/2020/Keyboard.html",
-    "revision": "edc98085ea6b5d373c426668efc5ad4c"
+    "revision": "1f3442dd6c5713273accaf4592cadcfd"
   },
   {
     "url": "posts/2020/LaTeXSourceForExperiment.html",
-    "revision": "ccd1621b9bbd0100bbf076e30872a394"
+    "revision": "3d80137eb8f858e935490f2c52d7031c"
   },
   {
     "url": "posts/2020/MacBookPro.html",
-    "revision": "c50f94a9f077bdf87fbdb0c5ab4ff2db"
+    "revision": "d1aba84b61c0f55fb59b211a4b25d6d2"
   },
   {
     "url": "posts/2020/MSEntry.html",
-    "revision": "ac17eca15039a33efcdd199b0dd54d48"
+    "revision": "17b44fbcdb2a6c2af8eb94e2695951ca"
   },
   {
     "url": "posts/2020/NCChackathon20summer.html",
-    "revision": "8406de3bf273c66dfdec1a76e4af46f1"
+    "revision": "f0030262debcc221a9d08744c1670d9f"
   },
   {
     "url": "posts/2020/Pandemic.html",
-    "revision": "ab055b96f226ad1264313882891d5a7e"
+    "revision": "331b0771bbd660cb82e1931ef3c3c10d"
   },
   {
     "url": "posts/2020/pyenv&pipenv.html",
-    "revision": "7b7585c2f9824358af593bb7a9ffbfd7"
+    "revision": "8212b715f765729d1170105f9e3c7a38"
   },
   {
     "url": "posts/2020/utsusemi.html",
-    "revision": "46c144c1971dff2905257dd35ce44ea9"
+    "revision": "ad14bdbf140bb95c67b2a4555e5d55e9"
   },
   {
     "url": "posts/2021/tldr.html",
-    "revision": "419dec21f0a9379f03691ea78bb13fb8"
+    "revision": "3be83a5e59ffb001ec285d3d716ddb44"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
