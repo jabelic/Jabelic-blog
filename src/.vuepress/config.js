@@ -86,7 +86,7 @@ module.exports = {
             popupComponent: 'MySWUpdatePopup',
             updatePopup: {
               message: "New content is available.",
-              buttonText: "Refresh"
+              buttonText: "Reload"
           }
           }
         ],

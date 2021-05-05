@@ -27,5 +27,5 @@ tags:
 
 - Qiita: [Jabelic](https://qiita.com/jabelic)
 
-
+- 技術スタック: Nuxt.js(Composition API) / Python3(数値計算, flask) / C(数値計算)
 
