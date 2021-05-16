@@ -4,7 +4,7 @@ date: 2021-05-16
 description: EzXML.jlを使って，XMLデータを解析．
 sidebar: auto
 author: Jabelic
-img: ../assets/
+img: ../assets/Julia.jpeg
 num: 202102
 settings:
   category: 技術
