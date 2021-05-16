@@ -3,8 +3,8 @@ themeConfig: {
     locales: {
       '/': {
         languages: {                              // Used in the drop down of languages
-          label: 'English', 
-          shortname: 'EN' 
+          label: 'Japanese', 
+          shortname: 'JA' 
          }, 
         translation: {},                          // Look for the "translations section" below
         logo: { 
@@ -61,7 +61,7 @@ themeConfig: {
       '/es/': ...
     },
     disqus: 'MY_DISQUS_SHORTNAME',
-    url: 'https://my_doamin.com',
+    url: 'https://jabelic.netlify.app',
     cdn: '',                              // If there is a CDN, put the bucket link here.
     blackWhite: true,                     // Active toggle for Nocturne mode
     topNavigation: true,                  // Turn on the navigation menu above the header

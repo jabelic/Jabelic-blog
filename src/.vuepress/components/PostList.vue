@@ -1,7 +1,7 @@
 // PostList.vue
 <template>
     <div id="postlist">
-        <div v-for="post in posts" :key="post">
+        <div v-for="post in posts" :key="post.frontmatter.num">
             <a v-bind:href="post.path">
             <article  class="outer">
             <a class="inner" :href="post.path" target="">
@@ -68,7 +68,7 @@ function absolute(base, relative) {
 }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
 .outer {
   display: flex;
   justify-content: center;

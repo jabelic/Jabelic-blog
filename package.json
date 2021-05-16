@@ -5,13 +5,15 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "dev": "vuepress dev src",
-    "dev:host":"vuepress dev src --host 0.0.0.0 --port 8080",
+    "dev:host": "vuepress dev src --host 0.0.0.0 --port 8080",
     "build": "vuepress build src",
     "eject": "vuepress eject src"
   },
   "dependencies": {
     "markdown-it-katex": "^2.0.3",
+    "node-sass": "^4.14.1",
     "register-service-worker": "^1.6.2",
+    "sass-loader": "^10.1.1",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
     "vuepress-plugin-sitemap": "^2.3.1",
@@ -25,6 +27,8 @@
     "@vuepress/plugin-google-analytics": "^1.5.2",
     "@vuepress/plugin-medium-zoom": "^1.5.3",
     "@vuepress/plugin-pwa": "^1.5.2",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
     "vue-template-compiler": "^2.6.10",
     "vuepress": "^1.5.2",
     "vuepress-plugin-seo": "^0.1.3"
