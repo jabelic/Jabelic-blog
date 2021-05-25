@@ -6,13 +6,12 @@ sidebar: auto
 author: Jabelic
 img: ../assets/trello-tldr.png
 num: 202101
-settings:
-  category: 技術
-  tags:
-    - tl;dr
-    - ChromeExtension
-    - JavaScript
-    - 技術ブログ
+tags:
+  - tl;dr
+  - ChromeExtension
+  - JavaScript
+  - 技術ブログ
+category: 技術
 ---
 
 # tl;dr の管理ツール

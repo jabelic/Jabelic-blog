@@ -6,7 +6,6 @@
         <article class="outer">
           <a class="inner" :href="post.path" target="">
             <div class="photo-outer">
-              <!--img :src="post.frontmatter.img"-->
               <img
                 v-if="post.frontmatter.num == 1"
                 src="../assets/profile.png"
@@ -71,6 +70,16 @@
             <div class="text-outer">
               <div class="title">{{ post.title }}</div>
               <div class="description">{{ post.frontmatter.description }}</div>
+              <div>
+                <span
+                  class="tags"
+                  :key="index + `/` + item"
+                  v-for="(item, index) in post.frontmatter.tags"
+                  style="display: inline-block"
+                >
+                  {{ item }}
+                </span>
+              </div>
             </div>
           </a>
         </article>
@@ -81,20 +90,15 @@
 </template>
 
 <script>
-/* eslint-disable no-console */
 export default {
   computed: {
     posts() {
-      return (
-        this.$site.pages
-          // blogディレクトリ以下を投稿記事一覧表示の対象とする
-          .filter((post) => post.path.startsWith("/posts/"))
+      return this.$site.pages
+        .filter((post) => post.path.startsWith("/posts/")) // blogディレクトリ以下を投稿記事一覧表示の対象とする
+        .sort(
           // dateに設定した日付の降順にソートする
-          .sort(
-            (a, b) =>
-              new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
-          )
-      );
+          (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
+        );
     },
   },
   methods: {},
@@ -176,6 +180,17 @@ img {
     transform: translate(-50%, -50%) scale(1.03) rotate(3deg);
     transition: all 0.5s;
   }
+}
+.tags {
+  display: inline-block;
+  padding: 2px 8px;
+  margin: 0 8px 10px 0;
+  background: rgba(0, 0, 0, 0);
+  font-size: 0.8em;
+  border: 1px solid #0085de;
+  border-radius: 3px;
+  visibility: visible;
+  position: relative;
 }
 @media (min-width: 480px) {
   .inner {

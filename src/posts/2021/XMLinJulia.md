@@ -6,13 +6,12 @@ sidebar: auto
 author: Jabelic
 img: ../assets/Julia.jpeg
 num: 202102
-settings:
-  category: 技術
-  tags:
-    - 技術ブログ
-    - Julia
-    - XML
-    - REST
+tags:
+  - 技術ブログ
+  - Julia
+  - XML
+  - REST
+category: 技術
 ---
 
 # Julia で気象庁の XML データの解析
@@ -20,6 +19,9 @@ settings:
 ## Motivation
 
 ## Overview
+
+- `HTTP.jl`を使って気象庁から XML 形式の Atom フィードを取得する．
+- `EzXML.jl`を使って XML データを示します．
 
 ## データの中身
 
