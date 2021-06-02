@@ -213,6 +213,7 @@ case2~case5 のうち, **case3 は唯一グラフの概形が異なっていて,
 - [東京都新型コロナウイルス感染症対策サイト](https://stopcovid19.metro.tokyo.lg.jp/)
 - [SIQR モデルの表示 - Qiita](https://qiita.com/ekzemplaro/items/d4b079da3f172f6535b9)
 
-<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-size='large'>Tweet</a>
-
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div class="twitter">
+  <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-size='large'>Tweet</a>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>

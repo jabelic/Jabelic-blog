@@ -198,3 +198,8 @@ GAS(GoogleAppScript)により GoogleForm から注文を受けて SpreadSheet �
 ## 参考
 
 - [第一話　 Scrapbox ってなあに？](https://scrapbox.io/wakaba-manga/%E7%AC%AC1%E8%A9%B1_Scrapbox%E3%81%A3%E3%81%A6%E3%81%AA%E3%81%82%E3%81%AB%EF%BC%9F)
+
+<div class="twitter">
+  <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-size='large'>Tweet</a>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>

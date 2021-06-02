@@ -50,3 +50,8 @@ settings:
 ## おわりに
 
 今のところこんな感じです。まだまだこの状況は続きそうですね。こういうときこそ進捗です！ニュートンはペストで大学が封鎖されたときに万有引力を発見しました。頑張ろう！
+
+<div class="twitter">
+  <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-size='large'>Tweet</a>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
