@@ -125,7 +125,7 @@ function absolute(base, relative) {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 200px;
+  min-height: 100px;
   transition: all 1s;
   width: 100%;
 }
@@ -135,7 +135,7 @@ function absolute(base, relative) {
   border-radius: 2px;
   display: flex;
   flex-direction: column;
-  width: 95%;
+  width: 85%;
   transition: all 0.5s;
 }
 a {
