@@ -38,6 +38,10 @@ module.exports = {
         }
       }
     },
+    markdown: {
+      // line number in code blocks
+      lineNumbers: true
+    },
     plugins: [
       [
         '@vuepress/medium-zoom',
