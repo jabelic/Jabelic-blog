@@ -6,23 +6,23 @@ sidebar: auto
 author: Jabelic
 img: ../assets/
 num: 11
+tags:
+  - python
+  - 開発環境
+  - 技術ブログ
 settings:
   category: 技術
-  tags:
-    - python
-    - 開発環境
-    - 技術ブログ
 ---
 
 <!--div v-if="new Date('2020/12/03 07:00').getTime() <= new Date().getTime()"-->
 
-# pyenv & pipenvで環境構築
+# pyenv & pipenv で環境構築
 
-こんにちは, Jabelicです. 本稿は[NCC Advent Calendar 2020](https://qiita.com/advent-calendar/2020/ncc)3日目の記事です. いやぁ, 枠が埋まらなくて大変ですね...
+こんにちは, Jabelic です. 本稿は[NCC Advent Calendar 2020](https://qiita.com/advent-calendar/2020/ncc)3 日目の記事です. いやぁ, 枠が埋まらなくて大変ですね...
 
-今回は自分が使っているpythonの開発環境のメモを紹介します. 現象数理学科の授業ではAnacondaを推奨するアナウンスがされていますが, Anacondaには様々な副作用があることが報告されています.
+今回は自分が使っている python の開発環境のメモを紹介します. 現象数理学科の授業では Anaconda を推奨するアナウンスがされていますが, Anaconda には様々な副作用があることが報告されています.
 
-簡単にAnacondaを卒業するならsystemに直接python3.xをinstallすれば良いですが, まぁ念のため仮想環境でも使っておこうと言う話.
+簡単に Anaconda を卒業するなら system に直接 python3.x を install すれば良いですが, まぁ念のため仮想環境でも使っておこうと言う話.
 
 ## 環境
 
@@ -32,9 +32,9 @@ CPU: Intel Core i5
 
 メモリ: 16GB
 
+## pyenv とは
 
-## pyenvとは
-pythonのバージョンをスイッチできるライブラリ.
+python のバージョンをスイッチできるライブラリ.
 
 `$ brew install pyenv`
 
@@ -50,24 +50,23 @@ pythonのバージョンをスイッチできるライブラリ.
 
 `$ source ~/.zshrc` 忘れない.
 
-
 ### 使い方
-pytenvでのpythonのinstall可能バージョン一覧
+
+pytenv での python の install 可能バージョン一覧
 
 `$ pyenv install --list`
 
-例えば3.8.0をinstallするなら
+例えば 3.8.0 を install するなら
 
 `$ pyenv install 3.8.0`
 
-現在のディレクトリのみで3.8.0を使う場合
+現在のディレクトリのみで 3.8.0 を使う場合
 
 `$ pyenv local 3.8.0`
 
 グローバルで変えるなら
 
 `$ pyenv global 3.8.0`
-
 
 `$ pyenv versions`
 
@@ -77,8 +76,7 @@ pytenvでのpythonのinstall可能バージョン一覧
  * 3.8.6 (set by /Users/xxxxxxx/stock/tmppy/.python-version)
 ```
 
-
-## pipenvとは
+## pipenv とは
 
 パッケージ毎のライブラリの管理をしてくれる仮想環境.
 
@@ -92,32 +90,30 @@ pytenvでのpythonのinstall可能バージョン一覧
 
 `$ pipenv install numpy`
 
-Pipfileと言うファイルに設定が記述される. このファイルを共有することでチームで環境を揃えることができる.
+Pipfile と言うファイルに設定が記述される. このファイルを共有することでチームで環境を揃えることができる.
 
 ```bash
  [[source]]
  url = "https://pypi.org/simple"
  verify_ssl = true
  name = "pypi"
- 
+
  [packages]
  numpy = "*"
- 
+
  [dev-packages]
- 
+
  [requires]
  python_version = "3.8"
 ```
 
-Pipfile.lockと言うファイルがここで生成されるが, これは実際にinstallされたパッケージのバージョンが記述されている.
-
-
+Pipfile.lock と言うファイルがここで生成されるが, これは実際に install されたパッケージのバージョンが記述されている.
 
 仮想環境に入る
 
 `$ pipenv shell`
 
-仮想環境内で無理やり __pyenvで指定したバージョンを利用__ するには
+仮想環境内で無理やり **pyenv で指定したバージョンを利用** するには
 
 `$ source ~/.zshrc`
 
@@ -131,15 +127,14 @@ Pipfile.lockと言うファイルがここで生成されるが, これは実際
 
 `hoge > pipenv run jupyter lab`
 
-Pipfile.lockを参照して環境をbuildするなら
+Pipfile.lock を参照して環境を build するなら
 
 `$ pipenv sync --dev`
 
+## WSL で pipenv
 
-## WSLでpipenv
+### pyenv を入れる
 
-
-### pyenvを入れる
 `$ sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev`
 
 `$ git clone https://github.com/yyuu/pyenv.git ~/.pyenv`
@@ -154,7 +149,7 @@ Pipfile.lockを参照して環境をbuildするなら
 
 `$ pyenv install --list`
 
-### pip入れる
+### pip 入れる
 
 `$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`
 
@@ -164,18 +159,17 @@ Pipfile.lockを参照して環境をbuildするなら
 
 `$ python -m pip install --upgrade pip`
 
-
 `$ echo 'export PATH="$HOME/.pyenv/shims:$PATH"' >> ~/.bashrc`
 
 `$ source ~/.bashrc`
 
-### pipenv入れる
+### pipenv 入れる
 
 `$ python -m pip install --user pipenv`
 
 `$ echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc`
 
-こんな感じ. 
+こんな感じ.
 
 `$ which python`
 
@@ -183,16 +177,12 @@ Pipfile.lockを参照して環境をbuildするなら
 
 `$ python -m pipenv install xxxxx`
 
-
-
 ## 参考
 
-[Pythonのパッケージ周りのベストプラクティスを理解する](https://www.m3tech.blog/entry/python-packaging)
+[Python のパッケージ周りのベストプラクティスを理解する](https://www.m3tech.blog/entry/python-packaging)
 
-[WSLにpipenvを導入するまで](https://qiita.com/mashita1023/items/10239f5621ef2fc8acb9)
+[WSL に pipenv を導入するまで](https://qiita.com/mashita1023/items/10239f5621ef2fc8acb9)
 
-[Pipfile.lockで固定された依存関係を再現するならpipenv syncコマンドを使おう](https://dev.classmethod.jp/articles/pipenv-sync-is-useful/)
-
-
+[Pipfile.lock で固定された依存関係を再現するなら pipenv sync コマンドを使おう](https://dev.classmethod.jp/articles/pipenv-sync-is-useful/)
 
 <!--/div-->
