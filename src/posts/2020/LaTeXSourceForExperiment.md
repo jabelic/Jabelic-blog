@@ -1,33 +1,32 @@
 ---
 titel: 実験レポートのためのLaTeX
 date: 2020-10-22
-description:  
+description:
 sidebar: auto
 author: Jabelic
 img: ../assets/mac.jpg
 num: 10
+tags:
+  - latex
+  - 技術ブログ
+  - 実験レポート
 settings:
   category: 技術
-  tags:
-    - latex
-    - 技術ブログ
-    - 実験レポート
 ---
 
-# 実験レポートのためのLaTeX
+# 実験レポートのための LaTeX
 
-実験レポートのためのLaTeXのスクリプトをおいておきます。
+実験レポートのための LaTeX のスクリプトをおいておきます。
 
-[LaTeX tips for student(me) - Qiita](https://qiita.com/jabelic/items/bf0b86882a4f3525661d)とか[TeX/LaTeX入門講座](https://qiita.com/jabelic/items/7c8c10d241449d834878)の内容もちょっとだけ載せておきます。
+[LaTeX tips for student(me) - Qiita](https://qiita.com/jabelic/items/bf0b86882a4f3525661d)とか[TeX/LaTeX 入門講座](https://qiita.com/jabelic/items/7c8c10d241449d834878)の内容もちょっとだけ載せておきます。
 
+## Overleaf のススメ
 
-## Overleafのススメ
-
-LaTeXの環境を整えるのはとても大変です。こんな感じで([LaTeX 環境構築 - scrapbox.io/jabelic-public](https://scrapbox.io/jabelic-public/LaTeX_%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89))手間がかかるし時間もかかるので、サクッとレポートないしは文書を作成したい場合はオンラインエディタを使うのが懸命だと思います。
+LaTeX の環境を整えるのはとても大変です。こんな感じで([LaTeX 環境構築 - scrapbox.io/jabelic-public](https://scrapbox.io/jabelic-public/LaTeX_%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89))手間がかかるし時間もかかるので、サクッとレポートないしは文書を作成したい場合はオンラインエディタを使うのが懸命だと思います。
 オンラインエディタとして一番有名なのが[Overleaf](http://overleaf.com/)です。
 
-### Overleafの日本語設定
- 
+### Overleaf の日本語設定
+
 <br>
 <details><summary>blankProjectを作成(クリックで開く)</summary>
 <img src="../../.vuepress/assets/home-ol.png" width=100%>
@@ -44,6 +43,7 @@ $dvipdf = 'dvipdfmx %O -o %D %S';
 $makeindex = 'mendex %O -o %D %S';
 $pdf_mode = 3;
 ```
+
 <br>
 
 <details><summary>Menuを開く(クリックで開く)</summary>
@@ -54,10 +54,9 @@ $pdf_mode = 3;
 <img src="../../.vuepress/assets/choice_latex.png" width=100%>
 </details>
 
+## LaTeX の基本的な使い方
 
-## LaTeXの基本的な使い方
-
-[TeX/LaTeX入門講座](https://qiita.com/jabelic/items/7c8c10d241449d834878)参照。気が向けばここにも書く。
+[TeX/LaTeX 入門講座](https://qiita.com/jabelic/items/7c8c10d241449d834878)参照。気が向けばここにも書く。
 
 ## 実験レポート用のソースコード
 
@@ -118,7 +117,7 @@ $pdf_mode = 3;
 
 \section{実験の原理}
 \begin{equation*}
-\hat{\bm{w}}\bm{x} + \hat{b} = 
+\hat{\bm{w}}\bm{x} + \hat{b} =
      \left\{
      \begin{aligned}
           = \geq 0 \hspace{5mm}\Longrightarrow\hspace{5mm}G_1\\
@@ -170,7 +169,7 @@ a_{21} & a_{22}\\
 \begin{thebibliography}{9}
   %\bibitem{1} 並木雅俊 「大学生のための物理入門」P.95, 98 (2010).
   %\bibitem{1}\href{http://www.wakariyasui.sakura.ne.jp/p/wave/onnpa/onnpa.html}{音波　■わかりやすい高校物理の部屋■}\url{http://www.wakariyasui.sakura.ne.jp/p/wave/onnpa/onnpa.html}
-  
+
 \end{thebibliography}
 
 \vspace{10.0cm}
@@ -178,6 +177,7 @@ a_{21} & a_{22}\\
 \end{document}
 
 ```
+
 </details>
 
 <details><summary> 出力(クリックで開く) </summary>
@@ -186,13 +186,8 @@ a_{21} & a_{22}\\
 <img src="../../.vuepress/assets/test_for_Qiita_page-0003.jpg" width=100%>
 </details>
 
-
-
-
 ## 実験レポートでよく使うなにか
 
 [LaTeX tips for student(me) - Qiita](https://qiita.com/jabelic/items/bf0b86882a4f3525661d)を参照。後で書くかも。
-
-
 
 <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

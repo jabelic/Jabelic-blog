@@ -1,89 +1,141 @@
 // PostList.vue
 <template>
-    <div id="postlist">
-        <div v-for="post in posts" :key="post">
-            <a v-bind:href="post.path">
-            <article  class="outer">
-            <a class="inner" :href="post.path" target="">
+  <div id="postlist">
+    <div v-for="post in posts" :key="post.frontmatter.num">
+      <a v-bind:href="post.path">
+        <article class="outer">
+          <a class="inner" :href="post.path" target="">
             <div class="photo-outer">
-                    <!--img src="post.frontmatter.img"-->
-                    <img v-if="post.frontmatter.num == 1" src="../assets/profile.png">
-                    <img v-if="post.frontmatter.num == 2" src="../assets/2.png">
-                    <img v-if="post.frontmatter.num == 3" src="../assets/COVIDpic/newSIQR-I-case1.png">
-                    <img v-if="post.frontmatter.num == 4" src="../assets/nakano_campus.jpg">
-                    <img v-if="post.frontmatter.num == 5" src="../assets/retroTinyBox.jpg">
-                    <img v-if="post.frontmatter.num == 6" src="../assets/utsusemi.png">
-                    <img v-if="post.frontmatter.num == 7" src="../assets/NCChackathon20summer.png">
-                    <img v-if="post.frontmatter.num == 8" src="../assets/GAS.png">
-                    <img v-if="post.frontmatter.num == 9" src="../assets/mac.jpg">
-                    <img v-if="post.frontmatter.num == 10" src="../assets/menu.png">
-                    <img v-if="post.frontmatter.num == 11" src="../assets/profile.png">
-                    <img v-if="post.frontmatter.num == 12" src="../assets/meiji_adobe_1.jpg">
-                    <img v-if="post.frontmatter.num == 13" src="../assets/osmanthus.png">
-                    <!--img v-if="post.frontmatter.img" :src="$withBase(post.frontmatter.img)" alt=""-->
-                     <img v-if="post.frontmatter.num == 202101" src="../assets/trello-tldr.png">
-             </div>
-            <div class="text-outer">
-            <div class="title">{{ post.title }}</div>
-            <div class="description">{{ post.frontmatter.description }}</div>
+              <img
+                v-if="post.frontmatter.num == 1"
+                src="../assets/profile.png"
+              />
+              <img
+                v-else-if="post.frontmatter.num == 2"
+                src="../assets/2.png"
+              />
+              <img
+                v-else-if="post.frontmatter.num == 3"
+                src="../assets/COVIDpic/newSIQR-I-case1.png"
+              />
+              <img
+                v-else-if="post.frontmatter.num == 4"
+                src="../assets/nakano_campus.jpg"
+              />
+              <img
+                v-else-if="post.frontmatter.num == 5"
+                src="../assets/retroTinyBox.jpg"
+              />
+              <img
+                v-else-if="post.frontmatter.num == 6"
+                src="../assets/utsusemi.png"
+              />
+              <img
+                v-else-if="post.frontmatter.num == 7"
+                src="../assets/NCChackathon20summer.png"
+              />
+              <img
+                v-else-if="post.frontmatter.num == 8"
+                src="../assets/GAS.png"
+              />
+              <img
+                v-else-if="post.frontmatter.num == 9"
+                src="../assets/mac.jpg"
+              />
+              <img
+                v-else-if="post.frontmatter.num == 10"
+                src="../assets/menu.png"
+              />
+              <img
+                v-else-if="post.frontmatter.num == 11"
+                src="../assets/profile.png"
+              />
+              <img
+                v-else-if="post.frontmatter.num == 12"
+                src="../assets/meiji_adobe_1.jpg"
+              />
+              <img
+                v-else-if="post.frontmatter.num == 13"
+                src="../assets/osmanthus.png"
+              />
+              <img
+                v-else-if="post.frontmatter.num == 202101"
+                src="../assets/trello-tldr.png"
+              />
+              <img
+                v-else-if="post.frontmatter.num == 202102"
+                src="../assets/Julia.jpeg"
+              />
             </div>
-            </a>
-            </article>
-            </a>
-            <!--a v-bind:href="post.path">続きを読む</a-->
-        </div>
+            <div class="text-outer">
+              <div class="title">{{ post.title }}</div>
+              <div class="description">{{ post.frontmatter.description }}</div>
+              <div>
+                <span
+                  class="tags"
+                  :key="index + `/` + item"
+                  v-for="(item, index) in post.frontmatter.tags"
+                  style="display: inline-block"
+                >
+                  {{ item }}
+                </span>
+              </div>
+            </div>
+          </a>
+        </article>
+      </a>
+      <!--a v-bind:href="post.path">続きを読む</a-->
     </div>
+  </div>
 </template>
 
 <script>
-/* eslint-disable no-console */
-
 export default {
-    computed: {
-        posts() {
-            return this.$site.pages
-                // blogディレクトリ以下を投稿記事一覧表示の対象とする
-                .filter(post => post.path.startsWith('/posts/'))
-                // dateに設定した日付の降順にソートする
-                .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date));
-        }
+  computed: {
+    posts() {
+      return this.$site.pages
+        .filter((post) => post.path.startsWith("/posts/")) // blogディレクトリ以下を投稿記事一覧表示の対象とする
+        .sort(
+          // dateに設定した日付の降順にソートする
+          (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
+        );
     },
-    methods: {
-    },
-    data: () => ({
-      imgFirst: '../../assets/profile.png'
-    })
-}
+  },
+  methods: {},
+  data: () => ({
+    imgFirst: "../../assets/profile.png",
+  }),
+};
 
 function absolute(base, relative) {
-  const stack = base.split('/')
-  const parts = relative.split('/')
-  stack.pop()
+  const stack = base.split("/");
+  const parts = relative.split("/");
+  stack.pop();
   for (var i = 0; i < parts.length; i++) {
-    if (parts[i] === '.') continue
-    if (parts[i] === '..') stack.pop()
-    else stack.push(parts[i])
+    if (parts[i] === ".") continue;
+    if (parts[i] === "..") stack.pop();
+    else stack.push(parts[i]);
   }
-  return stack.join('/')
+  return stack.join("/");
 }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
 .outer {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 200px;
+  min-height: 100px;
   transition: all 1s;
-  width: 100%
+  width: 100%;
 }
 .inner {
   box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
-  border: solid 1px #F2F2F2;
+  border: solid 1px #f2f2f2;
   border-radius: 2px;
   display: flex;
   flex-direction: column;
-  width: 95%;
+  width: 85%;
   transition: all 0.5s;
 }
 a {
@@ -129,6 +181,17 @@ img {
     transition: all 0.5s;
   }
 }
+.tags {
+  display: inline-block;
+  padding: 2px 8px;
+  margin: 0 8px 10px 0;
+  background: rgba(0, 0, 0, 0);
+  font-size: 0.8em;
+  border: 1px solid #0085de;
+  border-radius: 3px;
+  visibility: visible;
+  position: relative;
+}
 @media (min-width: 480px) {
   .inner {
     max-width: 700px;
@@ -152,7 +215,7 @@ img {
   }
   .text-outer:before {
     transform: skewX(-3deg);
-    content: '';
+    content: "";
     background: #fff;
     width: 30px;
     position: absolute;
@@ -162,5 +225,4 @@ img {
     z-index: -1;
   }
 }
-
 </style>
