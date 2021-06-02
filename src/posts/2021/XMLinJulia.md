@@ -304,6 +304,8 @@ println(String(req.body))
 
     </div></details>
 
+あとは子ノードを持つかどうかを判定する`hasnode(node)`, 文字列であるかどうかを判定する`istext(node)`などがある．
+
 <br>
 
 まとめると
@@ -334,7 +336,6 @@ for genus in eachelement(primates)
         elseif species.name == "id"
             global id_name = deepcopy(species.name)
             global id_content = deepcopy(species.content)
-            global innerdoc = root(species.document)
         end
     end
     if id_name != ""
@@ -396,6 +397,13 @@ output:
 ---------------------------------------
 ...
 ```
+
+## Reference
+
+[JuliaIO/EzXML.jl - github](https://github.com/JuliaIO/EzXML.jl)
+[EzXML.jl を作った話 - りんごがでている - hatenablog](http://bicycle1885.hatenablog.com/entry/2016/12/15/084937)  
+[PackageCompiler.jl で Plots の呼び出しを高速化する 2020 年 7 月版 - Qiita](https://qiita.com/cometscome_phys/items/85150cca4e4ff7c1d568)  
+[PackageCompiler.jl で Makie.jl の呼び出しを速くする - Qiita](https://qiita.com/SatoshiTerasaki/items/478f29cf4343364a136f)
 
 <style type="text/css">
 .heighlight-str {
