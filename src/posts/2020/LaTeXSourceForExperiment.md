@@ -1,5 +1,5 @@
 ---
-titel: 実験レポートのためのLaTeX
+titel: 実験レポートのためのLaTeX(テンプレあり)
 date: 2020-10-22
 description:
 sidebar: auto
@@ -14,7 +14,7 @@ settings:
   category: 技術
 ---
 
-# 実験レポートのための LaTeX
+# 実験レポートのための LaTeX（テンプレあり）
 
 実験レポートのための LaTeX のスクリプトをおいておきます。
 
