@@ -127,17 +127,11 @@ $ git push heroku master
 $ git open
 ```
 
-## プロダクト：今後の課題
-
-nuxt.js への移行
-
-- SPA, PWA 化
-
-vuetify の導入
+## プロダクト
 
 [講義 Timer for online class](https://fast-woodland-70792.herokuapp.com/)
 
-[Github](https://github.com/jabelic/processing-flask)
+[ソースコード(Github)](https://github.com/jabelic/class-timer-for-online)
 
 ## 企画：今後の課題
 
